@@ -1,0 +1,4554 @@
+/*
+Theme Name:   Avik
+Theme URI:   	https://www.denisfranchi.com/demo-wp-avik/
+Description:  Avik Portfolio is perfect for anyone who wants an easy theme to use and with a clean code. You can use this portfolio theme for: freelancer, photography studios, sound and music, musican, agency, architect agency, painter portfolio, artworks, art, trainer, projects, artist portfolio,personal portfolio, web design works, illustrators, freelance designer.
+Version:     	1.3.2
+Author:     	Denis Franchi
+Author URI:   https://www.denisfranchi.com/
+Site:         https://www.denisfranchi.com
+Tags:        	custom-menu, featured-images, full-width-template, one-column,rtl-language-support,translation-ready,custom-logo, editor-style,two-columns, right-sidebar, theme-options,flexible-header, custom-colors, custom-header
+Text Domain:  avik
+License:    	GNU General Public License v3.0
+License URI:	http://www.gnu.org/licenses/gpl-3.0.html
+*/
+
+/* TABLE OF CONTENT
+
+1 - Base Styles
+  1.1 General
+  1.2 Scroll angle down
+  1.3 Base effect
+  1.4 Element animation effect Bounce
+  1.5 Element animation effect Elongation
+  1.6 Element animation effect Fedeinright
+  1.7 Element animation effect Zoom-in-out
+  1.8 Element animation effect Right
+  1.9 Icon effect Video
+  1.10 Scrol To Top
+  1.11 Preloader
+  1-12 Widget Search
+  1.13 Comments
+  1.14 Input & textarea
+  1.15 General Widget
+  1.16 Breadcrumbs
+  1.17 Alignments
+  1.18 Galleries
+  1.19 Custom Editor
+  1.20 Accessibility
+  1.21 Infinite scroll
+  1.22 Media
+  1.23 Social share
+2 - Navbar
+  2.1 - Menu
+  2.2 - Social Icons menu
+  2.3 - Logo
+3 - Header Home
+  3.1 Slider
+  3.2 Video
+  3.3 Static
+4 - Who we are
+5 - Services
+6 - Portfolio
+  6.1 Page-Portfolio
+7 - Avik Blog
+  7.1 Breadcrums
+  7.2 Search
+  7.3 Comments
+  7.4 Page
+  7.5 Archive
+  7.6 Tags
+  7.7 Pagination
+  7.8 Article
+8 - Contact
+  8.1 Widget Contact Form
+  8.2 Social Icons Contact
+  8.3 Map
+9 - Footer
+  9.1 Social Icons Footer
+10 - Single Page
+11 - Carousel featured image
+12 - Page 404
+13 - Responsive
+  13.1 Element
+  13.2 Menu
+  13.3 Logo
+  13.4 Slider
+  13.5 Who we are
+  13.6 Services
+  13.7 Portfolio
+  13.8 Avik Blog
+  13.9 Contact
+  13.10 Page 404
+  13.11 Video
+  13.12 Static
+  13.13 Footer
+*/
+
+
+/* ------------------------------------------------------------------------- *
+##  1 Base Styles */
+/* ------------------------------------------------------------------------- */
+
+/*-------------------------------
+## Captions
+---------------------------------*/
+.wp-caption {
+	margin-bottom: 1.5em;
+	max-width: 100%;
+}
+
+.wp-caption img[class*="wp-image-"] {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.wp-caption .wp-caption-text {
+	margin: 0.8075em 0;
+}
+
+.wp-caption-text {
+	text-align: center;
+}
+
+
+/*-----------------------
+## 1.1 General
+-----------------------*/
+
+body{
+  min-height: 100vh;
+}
+.row{
+  margin-right: 0!important;
+  margin-left: 0!important;
+}
+
+.widget ul{
+  list-style: none;
+}
+
+a{
+  margin: 0!important;
+  text-decoration: none!important;
+}
+
+
+/*-----------------------
+## 1.2 Scroll angle down
+-----------------------*/
+
+.c-header-home_footer {
+  z-index: 3;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding-top:46em;
+}
+
+.angle-scroll{
+  padding-bottom: 12%;
+  padding-left: 25%;
+  font-size: 32px;
+}
+
+.angle-scroll a{
+  color: #fff;
+  text-decoration: none;
+}
+
+/*-----------------------
+## 1.3 Base effect
+-----------------------*/
+
+.animate{
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+/*-----------------------
+## 1.4 Element animation effect Bounce
+-----------------------*/
+
+.avik-animation-bounce{
+  animation: animationFrames linear 2s;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 50%;
+  -webkit-animation: animationFrames linear 2s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-transform-origin: 50% 50%;
+  -moz-animation: animationFrames linear 2s;
+  -moz-animation-iteration-count: infinite;
+  -moz-transform-origin: 50% 50%;
+  -o-animation: animationFrames linear 2s;
+  -o-animation-iteration-count: infinite;
+  -o-transform-origin: 50% 50%;
+  -ms-animation: animationFrames linear 2s;
+  -ms-animation-iteration-count: infinite;
+  -ms-transform-origin: 50% 50%;
+}
+
+@keyframes animationFrames{
+  0% {
+    transform:  translate(0px,-3px)  ;
+  }
+  21% {
+    transform:  translate(0px,-25px)  ;
+  }
+  30% {
+    transform:  translate(0px,0px)  ;
+  }
+  45% {
+    transform:  translate(0px,-15px)  ;
+  }
+  60% {
+    transform:  translate(0px,0px)  ;
+  }
+  75% {
+    transform:  translate(0px,-5px)  ;
+  }
+  100% {
+    transform:  translate(0px,0px)  ;
+  }
+}
+
+@-moz-keyframes animationFrames{
+  0% {
+    -moz-transform:  translate(0px,-3px)  ;
+  }
+  21% {
+    -moz-transform:  translate(0px,-25px)  ;
+  }
+  30% {
+    -moz-transform:  translate(0px,0px)  ;
+  }
+  45% {
+    -moz-transform:  translate(0px,-15px)  ;
+  }
+  60% {
+    -moz-transform:  translate(0px,0px)  ;
+  }
+  75% {
+    -moz-transform:  translate(0px,-5px)  ;
+  }
+  100% {
+    -moz-transform:  translate(0px,0px)  ;
+  }
+}
+
+@-webkit-keyframes animationFrames {
+  0% {
+    -webkit-transform:  translate(0px,-3px)  ;
+  }
+  21% {
+    -webkit-transform:  translate(0px,-25px)  ;
+  }
+  30% {
+    -webkit-transform:  translate(0px,0px)  ;
+  }
+  45% {
+    -webkit-transform:  translate(0px,-15px)  ;
+  }
+  60% {
+    -webkit-transform:  translate(0px,0px)  ;
+  }
+  75% {
+    -webkit-transform:  translate(0px,-5px)  ;
+  }
+  100% {
+    -webkit-transform:  translate(0px,0px)  ;
+  }
+}
+
+@-o-keyframes animationFrames {
+  0% {
+    -o-transform:  translate(0px,-3px)  ;
+  }
+  21% {
+    -o-transform:  translate(0px,-25px)  ;
+  }
+  30% {
+    -o-transform:  translate(0px,0px)  ;
+  }
+  45% {
+    -o-transform:  translate(0px,-15px)  ;
+  }
+  60% {
+    -o-transform:  translate(0px,0px)  ;
+  }
+  75% {
+    -o-transform:  translate(0px,-5px)  ;
+  }
+  100% {
+    -o-transform:  translate(0px,0px)  ;
+  }
+}
+
+@-ms-keyframes animationFrames {
+  0% {
+    -ms-transform:  translate(0px,-3px)  ;
+  }
+  21% {
+    -ms-transform:  translate(0px,-25px)  ;
+  }
+  30% {
+    -ms-transform:  translate(0px,0px)  ;
+  }
+  45% {
+    -ms-transform:  translate(0px,-15px)  ;
+  }
+  60% {
+    -ms-transform:  translate(0px,0px)  ;
+  }
+  75% {
+    -ms-transform:  translate(0px,-5px)  ;
+  }
+  100% {
+    -ms-transform:  translate(0px,0px)  ;
+  }
+}
+
+/*-----------------------
+## 1.5 Element animation effect Elongation
+-----------------------*/
+
+.title-menu-animation{
+  animation: animationElongation linear 3s;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 50%;
+  -webkit-animation: animationElongation linear 3s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-transform-origin: 50% 50%;
+  -moz-animation: animationElongation linear 3s;
+  -moz-animation-iteration-count: infinite;
+  -moz-transform-origin: 50% 50%;
+  -o-animation: animationElongation linear 3s;
+  -o-animation-iteration-count: infinite;
+  -o-transform-origin: 50% 50%;
+  -ms-animation: animationElongation linear 3s;
+  -ms-animation-iteration-count: infinite;
+  -ms-transform-origin: 50% 50%;
+}
+
+@keyframes animationElongation{
+  0% {
+    transform:  scaleX(1.00) ;
+  }
+  5% {
+    transform:  scaleX(1.10) ;
+  }
+  10% {
+    transform:  scaleX(1.36) ;
+  }
+  15% {
+    transform:  scaleX(1.05) ;
+  }
+  20% {
+    transform:  scaleX(1.01) ;
+  }
+  100% {
+    transform:  scaleX(1.01) ;
+  }
+}
+
+@-moz-keyframes animationElongation{
+  0% {
+    -moz-transform:  scaleX(1.00) ;
+  }
+  5% {
+    -moz-transform:  scaleX(1.10) ;
+  }
+  10% {
+    -moz-transform:  scaleX(1.36) ;
+  }
+  15% {
+    -moz-transform:  scaleX(1.05) ;
+  }
+  20% {
+    -moz-transform:  scaleX(1.01) ;
+  }
+  100% {
+    -moz-transform:  scaleX(1.01) ;
+  }
+}
+
+@-webkit-keyframes animationElongation{
+  0% {
+    -webkit-transform:  scaleX(1.00) ;
+  }
+  5% {
+    -webkit-transform:  scaleX(1.10) ;
+  }
+  10% {
+    -webkit-transform:  scaleX(1.36) ;
+  }
+  15% {
+    -webkit-transform:  scaleX(1.05) ;
+  }
+  20% {
+    -webkit-transform:  scaleX(1.01) ;
+  }
+  100% {
+    -webkit-transform:  scaleX(1.01) ;
+  }
+}
+
+@-o-keyframes animationElongation{
+  0% {
+    -o-transform:  scaleX(1.00) ;
+  }
+  5% {
+    -o-transform:  scaleX(1.10) ;
+  }
+  10% {
+    -o-transform:  scaleX(1.36) ;
+  }
+  15% {
+    -o-transform:  scaleX(1.05) ;
+  }
+  20% {
+    -o-transform:  scaleX(1.01) ;
+  }
+  100% {
+    -o-transform:  scaleX(1.01) ;
+  }
+}
+
+@-ms-keyframes animationElongation{
+  0% {
+    -ms-transform:  scaleX(1.00) ;
+  }
+  5% {
+    -ms-transform:  scaleX(1.10) ;
+  }
+  10% {
+    -ms-transform:  scaleX(1.36) ;
+  }
+  15% {
+    -ms-transform:  scaleX(1.05) ;
+  }
+  20% {
+    -ms-transform:  scaleX(1.01) ;
+  }
+  100% {
+    -ms-transform:  scaleX(1.01) ;
+  }
+}
+
+/*-----------------------
+## 1.6 Element animation effect Fedeinright
+-----------------------*/
+
+@-webkit-keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    left: 20%;
+  }
+  100% {
+    opacity: 1;
+    left: 0;
+  }
+}
+
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    left: 20%;
+  }
+  100% {
+    opacity: 1;
+    left: 0;
+  }
+}
+
+/*-----------------------
+## 1.7 Element animation effect Zoom-in-out
+-----------------------*/
+
+@-webkit-keyframes zoom-in-out {
+  0%{ -webkit-transform: scale(1); transform: scale(1); }
+  50%{ -webkit-transform: scale(1.01); transform: scale(1.01); }
+  100%{ -webkit-transform: scale(1); transform: scale(1); }
+}
+
+  @keyframes zoom-in-out {
+  0%{ -ms-transform: scale(1); transform: scale(1); }
+  50%{ -ms-transform: scale(1.01); transform: scale(1.01); }
+  100%{ -ms-transform: scale(1); transform: scale(1); }
+}
+
+/*-----------------------
+## 1.8 Element animation effect Right
+-----------------------*/
+
+.arrow-price-animation{
+  animation: animationAvikPrice linear 2s;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 50%;
+  -webkit-animation: animationAvikPrice linear 2s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-transform-origin: 50% 50%;
+  -moz-animation: animationAvikPrice linear 2s;
+  -moz-animation-iteration-count: infinite;
+  -moz-transform-origin: 50% 50%;
+  -o-animation: animationAvikPrice linear 2s;
+  -o-animation-iteration-count: infinite;
+  -o-transform-origin: 50% 50%;
+  -ms-animation: animationAvikPrice linear 2s;
+  -ms-animation-iteration-count: infinite;
+  -ms-transform-origin: 50% 50%;
+}
+
+@keyframes animationAvikPrice{
+  0% {
+    transform:  translate(0px,0px)  ;
+  }
+  3% {
+    transform:  translate(11px,-1px)  ;
+  }
+  6% {
+    transform:  translate(21px,-1px)  ;
+  }
+  9% {
+    transform:  translate(29px,-1px)  ;
+  }
+  9% {
+    transform:  translate(29px,-1px)  ;
+  }
+  10% {
+    transform:  translate(42px,-1px)  ;
+  }
+  12% {
+    transform:  translate(55px,-1px)  ;
+  }
+  14% {
+    transform:  translate(44px,-1px)  ;
+  }
+  17% {
+    transform:  translate(28px,-2px)  ;
+  }
+  19% {
+    transform:  translate(12px,-1px)  ;
+  }
+  23% {
+    transform:  translate(0px,0px)  ;
+  }
+  100% {
+    transform:  translate(0px,0px)  ;
+  }
+}
+
+@-moz-keyframes animationAvikPrice{
+  0% {
+    -moz-transform:  translate(0px,0px)  ;
+  }
+  3% {
+    -moz-transform:  translate(11px,-1px)  ;
+  }
+  6% {
+    -moz-transform:  translate(21px,-1px)  ;
+  }
+  9% {
+    -moz-transform:  translate(29px,-1px)  ;
+  }
+  9% {
+    -moz-transform:  translate(29px,-1px)  ;
+  }
+  10% {
+    -moz-transform:  translate(42px,-1px)  ;
+  }
+  12% {
+    -moz-transform:  translate(55px,-1px)  ;
+  }
+  14% {
+    -moz-transform:  translate(44px,-1px)  ;
+  }
+  17% {
+    -moz-transform:  translate(28px,-2px)  ;
+  }
+  19% {
+    -moz-transform:  translate(12px,-1px)  ;
+  }
+  23% {
+    -moz-transform:  translate(0px,0px)  ;
+  }
+  100% {
+    -moz-transform:  translate(0px,0px)  ;
+  }
+}
+
+@-webkit-keyframes animationAvikPrice {
+  0% {
+    -webkit-transform:  translate(0px,0px)  ;
+  }
+  3% {
+    -webkit-transform:  translate(11px,-1px)  ;
+  }
+  6% {
+    -webkit-transform:  translate(21px,-1px)  ;
+  }
+  9% {
+    -webkit-transform:  translate(29px,-1px)  ;
+  }
+  9% {
+    -webkit-transform:  translate(29px,-1px)  ;
+  }
+  10% {
+    -webkit-transform:  translate(42px,-1px)  ;
+  }
+  12% {
+    -webkit-transform:  translate(55px,-1px)  ;
+  }
+  14% {
+    -webkit-transform:  translate(44px,-1px)  ;
+  }
+  17% {
+    -webkit-transform:  translate(28px,-2px)  ;
+  }
+  19% {
+    -webkit-transform:  translate(12px,-1px)  ;
+  }
+  23% {
+    -webkit-transform:  translate(0px,0px)  ;
+  }
+  100% {
+    -webkit-transform:  translate(0px,0px)  ;
+  }
+}
+
+@-o-keyframes animationAvikPrice {
+  0% {
+    -o-transform:  translate(0px,0px)  ;
+  }
+  3% {
+    -o-transform:  translate(11px,-1px)  ;
+  }
+  6% {
+    -o-transform:  translate(21px,-1px)  ;
+  }
+  9% {
+    -o-transform:  translate(29px,-1px)  ;
+  }
+  9% {
+    -o-transform:  translate(29px,-1px)  ;
+  }
+  10% {
+    -o-transform:  translate(42px,-1px)  ;
+  }
+  12% {
+    -o-transform:  translate(55px,-1px)  ;
+  }
+  14% {
+    -o-transform:  translate(44px,-1px)  ;
+  }
+  17% {
+    -o-transform:  translate(28px,-2px)  ;
+  }
+  19% {
+    -o-transform:  translate(12px,-1px)  ;
+  }
+  23% {
+    -o-transform:  translate(0px,0px)  ;
+  }
+  100% {
+    -o-transform:  translate(0px,0px)  ;
+  }
+}
+
+@-ms-keyframes animationAvikPrice {
+  0% {
+    -ms-transform:  translate(0px,0px)  ;
+  }
+  3% {
+    -ms-transform:  translate(11px,-1px)  ;
+  }
+  6% {
+    -ms-transform:  translate(21px,-1px)  ;
+  }
+  9% {
+    -ms-transform:  translate(29px,-1px)  ;
+  }
+  9% {
+    -ms-transform:  translate(29px,-1px)  ;
+  }
+  10% {
+    -ms-transform:  translate(42px,-1px)  ;
+  }
+  12% {
+    -ms-transform:  translate(55px,-1px)  ;
+  }
+  14% {
+    -ms-transform:  translate(44px,-1px)  ;
+  }
+  17% {
+    -ms-transform:  translate(28px,-2px)  ;
+  }
+  19% {
+    -ms-transform:  translate(12px,-1px)  ;
+  }
+  23% {
+    -ms-transform:  translate(0px,0px)  ;
+  }
+  100% {
+    -ms-transform:  translate(0px,0px)  ;
+  }
+}
+
+/*-----------------------
+## 1.9 Icon effect Video
+-----------------------*/
+
+.avik-portfolio i{
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  background: rgba(0, 0, 0, 0.66);
+  color: #d5f83e;
+  padding: 28px 29px;
+  z-index: 9;
+  margin: -31px;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+}
+
+.fluid-width-video-wrapper{
+  height: 200px;
+}
+
+/*-----------------------
+## 1.10 Scrol To Top
+-----------------------*/
+
+#avik-scrol-to-top{
+  display: inline-block;
+  background-color: #231f20;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 0px;
+  right: 40px;
+  transition: background-color .3s, opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+  padding: 15px;
+  border-radius: 10px 10px 0 0;
+  color: white;
+  height: 44px;
+  letter-spacing:4px;
+  width: 156px;
+  border-color: transparent;
+  cursor: pointer;
+  transform: translateY(100%);
+  transition: all .3s ease-out;
+}
+
+#avik-scrol-to-top p{
+  font-size: 10px;
+}
+
+#avik-scrol-to-top::after {
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 50px;
+}
+
+#avik-scrol-to-top:hover {
+  background-color: #777777;
+  border-color:transparent;
+}
+
+#avik-scrol-to-top:active {
+  background-color: #777777;
+}
+
+#avik-scrol-to-top.show {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0%);
+}
+
+/*-----------------------
+## 1.11 Preloader
+-----------------------*/
+
+.avik-loader {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  z-index: 9999999999;
+}
+
+.loader {
+  height: 3px;
+  background-color: #fff;
+  position: absolute;
+  z-index: 9999999999;
+}
+
+/*-----------------------
+## 1.12 Widget Search
+-----------------------*/
+
+.search-field{
+  float: left;
+  position: relative;
+}
+
+.search-submit{
+  float: right;
+  position: absolute;
+  background-color: #000;
+  border-color: transparent;
+  color: #fff;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+input#s{
+  font-size: 13px;
+}
+
+/*-----------------------
+## 1.13 Comments
+-----------------------*/
+
+.comment-content a {
+	word-wrap: break-word;
+}
+
+.bypostauthor {
+	display: block;
+}
+
+
+#comments{
+  margin-bottom: 40px;
+}
+
+.comments{
+  padding-top: 40px;
+}
+
+.comments textarea{
+  width: 100%;
+}
+
+.comments label{
+  min-width: 80px;
+}
+
+.comments ul,
+.comments ol{
+  list-style-type: none;
+}
+
+.comment-author img{
+  border-radius: 999px;
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+}
+
+.comment .reply{
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+}
+
+.comments h2{
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1;
+  margin: 0;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+  letter-spacing: 3px;
+}
+
+h3.comment-reply-title{
+  font-size: 24px!important;
+  font-weight: 600!important;
+  line-height: 1!important;
+  margin: 0!important;
+  text-transform: capitalize!important;
+  margin-bottom: 20px!important;
+  letter-spacing: 3px;
+}
+
+input#author{
+  border-bottom: 1px solid #ccc;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+input#email{
+  border-bottom: 1px solid #ccc;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+textarea#comment{
+  border-bottom: 1px solid #ccc;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  height: 80px;
+}
+
+p.comment-form-comment{
+  padding-top: 5em;
+}
+
+.comment-respond{
+  margin-top: 4em;
+}
+
+#respond .submit{
+ cursor: pointer;
+ float: right;
+ margin-top: 2em;
+ margin-bottom: 5em;
+}
+
+#respond .submit:hover{
+background-color: #000;
+color: #d5f83e;
+border-color: transparent;
+}
+
+.comment-notes{
+  font-size:10px;
+}
+
+.comment-metadata a{
+  color: #888888;
+}
+
+.reply a{
+  color: #888888;
+}
+
+.comment-author a{
+  color: #888888;
+}
+
+
+/*-----------------------
+## 1.14 Input & textarea
+-----------------------*/
+
+input,
+textarea{
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  line-height: normal!important;
+}
+
+input:focus{
+  outline: none!important;
+}
+
+textarea:focus{
+  outline: none!important;
+}
+
+
+/*-----------------------
+## 1.15 General Widget
+-----------------------*/
+
+h2.widget-title{
+  color: #5d5d5d;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1;
+  margin: 0 0 20px;
+  text-transform: uppercase;
+  border-left: 3px solid;
+  padding-left: 10px;
+  padding-top: 3px;
+  height: 24px;
+}
+
+.widget li a {
+  color: #888888;
+  padding: 2px 0;
+  line-height: 30px;
+  font-size: 14px;
+}
+
+aside .widget{
+  border-bottom: 1px solid #ececec;
+  padding-bottom: 45px;
+  float: left;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+/*-----------------------
+## 1.16 Breadcrumbs
+-----------------------*/
+
+.breadcrumbs {
+ background-color: #f6f6f6;
+ height: auto;
+ margin-top: 3em;
+ padding-top: 30px;
+ padding-bottom: 30px;
+}
+
+.breadcrumbs a{
+  color: #888888;
+}
+
+.menu-breadcrumbs{
+  text-align: right;
+}
+
+.text-breadcrumbs{
+  font-size: 16px;
+  text-transform: uppercase;
+  line-height: 1;
+  color: #000;
+  font-weight: 600;
+  letter-spacing: 3px;
+}
+
+
+/*-----------------------
+## 1.17 Alignments
+-----------------------*/
+.alignleft {
+  display: inline;
+  float: left;
+  margin-right: 1.5em;
+}
+
+.alignright {
+  display: inline;
+  float: right;
+  margin-left: 1.5em;
+}
+
+.aligncenter {
+  clear: both;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.entry-footer{
+  margin-top: 5em;
+}
+
+/*-----------------------
+  ## 1.18 Galleries
+-----------------------*/
+
+.gallery {
+  margin-bottom: 1.5em;
+}
+
+.gallery-item {
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+  width: 100%;
+}
+
+.gallery-columns-2 .gallery-item {
+  max-width: 50%;
+}
+
+.gallery-columns-3 .gallery-item {
+  max-width: 33.33%;
+}
+
+.gallery-columns-4 .gallery-item {
+  max-width: 25%;
+}
+
+.gallery-columns-5 .gallery-item {
+  max-width: 20%;
+}
+
+.gallery-columns-6 .gallery-item {
+  max-width: 16.66%;
+}
+
+.gallery-columns-7 .gallery-item {
+  max-width: 14.28%;
+}
+
+.gallery-columns-8 .gallery-item {
+  max-width: 12.5%;
+}
+
+.gallery-columns-9 .gallery-item {
+  max-width: 11.11%;
+}
+
+.gallery-caption {
+  display: block;
+}
+
+/*-----------------------
+  ## 1.19 Custom Editor
+-----------------------*/
+
+/* Avik Allert */
+
+.alert{
+  border-radius: 0!important;
+}
+
+/* Avik Success */
+
+.alert-success a{
+  color:#00b92a;
+  font-weight: bold;
+}
+
+.alert-success {
+  border-left:3px solid #00b92a!important;
+}
+
+.alert-success p{
+  color: #155724!important;
+}
+
+/* Avik Secondary */
+
+.alert-secondary a{
+  color:#0079b5;
+  font-weight: bold;
+}
+
+.alert-secondary {
+  border-left:3px solid #0079b5!important;
+}
+
+.alert-secondary p{
+  color: #464a4e!important;
+}
+
+/* Avik Danger */
+
+.alert-danger a{
+  color:#ff0018;
+  font-weight: bold;
+}
+
+.alert-danger {
+  border-left:3px solid #ff0018!important;
+}
+
+.alert-danger p{
+  color: #721c24!important;
+}
+
+/* Avik Warning */
+
+.alert-warning a{
+  color:#fdbe00;
+  font-weight: bold;
+}
+
+.alert-warning {
+  border-left:3px solid #fdbe00!important;
+}
+
+.alert-warning p{
+  color: #856404!important;
+}
+
+/* Avik Info */
+
+.alert-info a{
+  color:#00dbff;
+  font-weight: bold;
+}
+
+.alert-info {
+  border-left:3px solid #00dbff!important;
+}
+
+.alert-info p{
+  color: #0c5460!important;
+}
+
+/* Avik Button */
+
+.avik-button-editor{
+  background-color: #ffffff;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 0;
+  display: inline-block;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 30px;
+  text-decoration: none;
+  margin-bottom: 30px;
+  cursor: pointer;
+  border: 0.003em solid #c2c2c2;
+  color:#464a4e!important;
+}
+
+.avik-button-editor:hover{
+  background-color: #000;
+  color: #d5f83e!important;
+}
+
+/*----------------------
+# 1.20 Accessibility
+------------------------*/
+
+/* Text meant only for screen readers. */
+.screen-reader-text {
+	border: 0;
+	clip: rect(1px, 1px, 1px, 1px);
+	clip-path: inset(50%);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute !important;
+	width: 1px;
+	word-wrap: normal !important; /* Many screen reader and browser combinations announce broken words as they would appear visually. */
+}
+
+.screen-reader-text:focus {
+	background-color: #f1f1f1;
+	border-radius: 3px;
+	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+	clip: auto !important;
+	clip-path: none;
+	color: #21759b;
+	display: block;
+	font-size: 14px;
+	font-size: 0.875rem;
+	font-weight: bold;
+	height: auto;
+	left: 5px;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	text-decoration: none;
+	top: 5px;
+	width: auto;
+	z-index: 100000;
+	/* Above WP toolbar. */
+}
+
+/* Do not show the outline on the skip link target. */
+#content[tabindex="-1"]:focus {
+	outline: 0;
+}
+
+/*------------------------
+# 1.21 Infinite scroll
+--------------------------*/
+
+/* Globally hidden elements when Infinite Scroll is supported and in use. */
+.infinite-scroll .posts-navigation,
+.infinite-scroll.neverending .site-footer {
+	/* Theme Footer (when set to scrolling) */
+	display: none;
+}
+
+/* When Infinite Scroll has reached its end we need to re-display elements that were hidden (via .neverending) before. */
+.infinity-end.neverending .site-footer {
+	display: block;
+}
+
+/*----------------------
+# 1.22 Media
+------------------------*/
+.page-content .wp-smiley,
+.entry-content .wp-smiley,
+.comment-content .wp-smiley {
+	border: none;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding: 0;
+}
+
+.gallery-icon{
+  padding: 15px;
+}
+
+/* Make sure embeds and iframes fit their containers. */
+embed,
+iframe,
+object {
+	max-width: 100%;
+}
+
+/* Make sure logo link wraps around logo image. */
+.custom-logo-link {
+	display: inline-block;
+}
+
+/*-----------------------
+## 1.23 Social share
+-----------------------*/
+
+ul.social-share{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding-left: 0!important;
+
+}
+
+.social-share i{
+  padding-right:30px;
+  color: #6b6868;
+}
+
+.social-share i:hover{
+  color: #000;
+  transition: all .4s ease-in-out;
+}
+
+.social-share-portfolio h3{
+  font-size: 14px;
+  letter-spacing: 3px;
+  font-weight: bold;
+  padding-bottom: 2em;
+}
+
+.social-share-portfolio {
+  padding-top: 2em;
+  padding-left: 1em;
+  padding-bottom: 2em;
+}
+
+a.button-portfolio-1-c-1{
+  font-size: 12px;
+  letter-spacing: 3px;
+  color: #000;
+}
+
+a.button-portfolio-2-c-1{
+  font-size: 12px;
+  letter-spacing: 3px;
+  color: #000;
+}
+
+a.button-portfolio-3-c-1{
+  font-size: 12px;
+  letter-spacing: 3px;
+  color: #000;
+}
+
+a.button-portfolio-4-c-1{
+  font-size: 12px;
+  letter-spacing: 3px;
+  color: #000;
+}
+
+a.button-portfolio-5-c-1{
+  font-size: 12px;
+  letter-spacing: 3px;
+  color: #000;
+}
+
+a.button-portfolio-6-c-1{
+  font-size: 12px;
+  letter-spacing: 3px;
+  color: #000;
+}
+
+a.button-portfolio-1-c-2{
+  font-size: 12px;
+  letter-spacing: 3px;
+  color: #000;
+}
+
+a.button-portfolio-2-c-2{
+  font-size: 12px;
+  letter-spacing: 3px;
+  color: #000;
+}
+
+a.button-portfolio-3-c-2{
+  font-size: 12px;
+  letter-spacing: 3px;
+  color: #000;
+}
+
+a.button-portfolio-4-c-2{
+  font-size: 12px;
+  letter-spacing: 3px;
+  color: #000;
+}
+
+a.button-portfolio-5-c-2{
+  font-size: 12px;
+  letter-spacing: 3px;
+  color: #000;
+}
+
+a.button-portfolio-6-c-2{
+  font-size: 12px;
+  letter-spacing: 3px;
+  color: #000;
+}
+
+a.button-portfolio-1-c-3{
+  font-size: 12px;
+  letter-spacing: 3px;
+  color: #000;
+}
+
+a.button-portfolio-2-c-3{
+  font-size: 12px;
+  letter-spacing: 3px;
+  color: #000;
+}
+
+a.button-portfolio-3-c-3{
+  font-size: 12px;
+  letter-spacing: 3px;
+  color: #000;
+}
+
+a.button-portfolio-4-c-3{
+  font-size: 12px;
+  letter-spacing: 3px;
+  color: #000;
+}
+
+a.button-portfolio-5-c-3{
+  font-size: 12px;
+  letter-spacing: 3px;
+  color: #000;
+}
+
+a.button-portfolio-6-c-3{
+  font-size: 12px;
+  letter-spacing: 3px;
+  color: #000;
+}
+
+.social-share-page h3{
+  font-size: 14px;
+  letter-spacing: 3px;
+  font-weight: bold;
+  padding-bottom: 2em;
+}
+
+.social-share-page {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.social-share-single h3{
+  font-size: 14px;
+  letter-spacing: 3px;
+  font-weight: bold;
+  padding-bottom: 2em;
+}
+
+.social-share-single {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+
+/* ------------------------------------------------------------------------- *
+##  2 Navbar */
+/* ------------------------------------------------------------------------- */
+
+
+/*-----------------------
+## 2.1 Menu
+-----------------------*/
+button:focus{
+  outline: none!important;
+}
+
+.navbar a{
+  color:#000;
+  display: inherit;
+	margin-bottom: 10px;
+
+}
+
+.navbar a:hover{
+  color:#777777;
+}
+
+.navbar a.active{
+  color: #777777!important;
+}
+
+.navbar {
+  background-color: #fff;
+  -webkit-box-shadow: 1px -4px 12px 1px #000000;
+  box-shadow: 1px -4px 12px 1px #000000;
+
+}
+
+.dropdown-menu{
+  border: none!important;
+  text-align: center !important;
+}
+
+.navbar-expand-lg.hide-menu{
+  display: none;
+}
+
+.navbar-toggler.navbar-toggler-right{
+  color: #d5f83e;
+}
+
+.fixed-top{
+  padding:15px;
+  padding-left: 5em;
+  padding-right: 5em;
+
+}
+
+.navbar-toggler-icon{
+  width: 1.5em!important;
+  height: 1.5em!important;
+}
+
+.nav-link{
+  padding: .1rem .1rem!important;
+  text-align: center!important;
+}
+
+.navbar-collapse li{
+  padding: 0 19px;
+}
+
+
+/*-----------------------
+## 2.2 Social Icon menu
+-----------------------*/
+
+.avik-social-icons-header{
+  position: absolute;
+  z-index: 9999;
+  padding-top: 20em;
+}
+
+.avik-social-icons{
+  list-style: none;
+}
+
+.avik-social-icons-header i{
+  color:#d5f83e;
+  font-size: 18px;
+  padding-bottom: 1.2em;
+}
+
+.avik-social-icons-header i:hover{
+  color:#829822;
+  transition: all .4s ease-in-out;
+}
+
+
+/*-----------------------
+## 2.3 Logo
+-----------------------*/
+
+.avik-logo{
+  z-index: 9999;
+  left:5em;
+  top:1em;
+}
+
+.avik-logo img{
+  height: auto;
+  transition: all .5s ease-in-out;
+}
+
+.rotate img:hover{
+  transform: rotate(180deg);
+}
+
+.avik-logo h1{
+  color:#fff;
+  font-size: 24px;
+ padding-top: 10px;
+}
+
+.avik-logo a{
+  color:#000;
+  text-decoration: none;
+}
+
+.avik-logo a:hover{
+  color:#b3b3b3;
+}
+
+.avik-logo p{
+  color:#000;
+}
+
+.avik-custom-logo-header.logo1{
+  display: none;
+}
+
+.avik-custom-logo-body.logo2{
+  display: none;
+}
+
+.navbar-nav.ml-auto.tom{
+  display:none;
+}
+.avik-custom-logo-header{
+z-index: 9999999;
+position: fixed;
+}
+
+/* ------------------------------------------------------------------------- *
+##  3 Header Home */
+/* ------------------------------------------------------------------------- */
+
+.filter-header{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+
+/*-----------------------
+## 3.1 Slider
+-----------------------*/
+
+.pagination__item {
+  cursor: pointer;
+  display: inline-block;
+  white-space: nowrap;
+  font-size: 0;
+  width: 10px;
+  height: 10px;
+  border: 1px solid #fff;
+  margin: 0 5px;
+  transition: .2s ease-in-out;
+  display: none;
+}
+.pagination__item.is-current, .pagination__item:hover {
+  background-color: #fff;
+}
+
+.container {
+  position: relative;
+  margin: 0 auto;
+}
+
+.background-absolute {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-position: center;
+  background-size: cover;
+}
+
+.slideshow {
+  position: relative;
+  color: #fff;
+  background: #000000;
+  overflow: hidden;
+  margin-bottom: 8em;
+}
+
+.slideshow h3,
+.slideshow h1,
+.slideshow h2 {
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  line-height: 2em;
+}
+
+.slideshow h1 {
+  font-size: 64px;
+  font-weight: 800;
+}
+
+.slideshow__slide {
+  visibility: hidden;
+  transition: visibility 0s 1.7s;
+}
+
+.slideshow__slide.is-current {
+  visibility: visible;
+  transition-delay: 0s;
+  }
+
+.slideshow__slide-background-load-wrap {
+  transition: transform 0.9s cubic-bezier(0.4, 0, 0.2, 1);
+  transform: translate3d(0, 100%, 0);
+  overflow: hidden;
+}
+
+.is-animated .slideshow__slide-background-load-wrap {
+  transform: translate3d(0, 0, 0);
+  transition-delay: 0s;
+}
+
+.slideshow__slide.is-prev .slideshow__slide-background-parallax, .slideshow__slide.is-next .slideshow__slide-background-parallax, .slideshow__slide.is-prev-section .slideshow__slide-background-parallax, .slideshow__slide.is-next-section .slideshow__slide-background-parallax {
+  transform: none !important;
+}
+
+.slideshow__slide-background-load {
+  transition: transform 0.9s cubic-bezier(0.4, 0, 0.2, 1);
+  transform: translate3d(0, -50%, 0);
+}
+
+.is-animated .slideshow__slide-background-load {
+  transform: translate3d(0, 0, 0);
+}
+
+.slideshow__slide-background-wrap {
+  transition: transform 1.2s cubic-bezier(0.4, 0, 0.2, 1) 0.5s;
+  transform: translate3d(0, 0, 0);
+}
+
+.slideshow__slide.is-prev .slideshow__slide-background-wrap {
+  transform: translate3d(0, -100%, 0);
+}
+
+.slideshow__slide.is-next .slideshow__slide-background-wrap {
+  transform: translate3d(0, 100%, 0);
+}
+
+.slideshow__slide.is-prev-section .slideshow__slide-background-wrap {
+  transform: translate3d(0, -100%, 0);
+  transition: none;
+}
+
+.slideshow__slide.is-next-section .slideshow__slide-background-wrap {
+  transform: translate3d(0, 100%, 0);
+  transition: none;
+}
+
+.slideshow__slide-background {
+  transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1) 1.5s;
+  transform: scale(1);
+  overflow: hidden;
+}
+
+.slideshow__slide.is-prev .slideshow__slide-background, .slideshow__slide.is-next .slideshow__slide-background {
+  transform: scale(0.5);
+  transition-delay: 0s;
+}
+
+.slideshow__slide.is-prev-section .slideshow__slide-background, .slideshow__slide.is-next-section .slideshow__slide-background {
+  transform: scale(0.5);
+  transition-delay: 0s;
+  transition: none;
+}
+
+.slideshow__slide-image-wrap {
+  transition: transform 1.2s cubic-bezier(0.4, 0, 0.2, 1) 0.6s;
+  transform: translate3d(0, 0, 0);
+}
+
+.slideshow__slide.is-prev .slideshow__slide-image-wrap {
+  transform: translate3d(0, 50%, 0);
+}
+
+.slideshow__slide-image {
+  transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1) 1.5s;
+  transform: scale(1);
+}
+
+.slideshow__slide.is-prev .slideshow__slide-image, .slideshow__slide.is-next .slideshow__slide-image {
+  transform: scale(1.25);
+  transition-delay: 0s;
+}
+
+.slideshow__slide.is-prev-section .slideshow__slide-image, .slideshow__slide.is-next-section .slideshow__slide-image {
+  transform: scale(1.25);
+  transition-delay: 0s;
+  transition: none;
+}
+
+.slideshow__slide-image::before, .slideshow__slide-image::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+}
+
+.slideshow__slide-image::before {
+  background-color: rgba(45, 113, 150, 0.584);
+}
+
+.slideshow__slide-image::after {
+  background: linear-gradient(to top, transparent 0%, #fff 20%);
+}
+
+.slideshow__slide.is-prev .slideshow_container, .slideshow__slide.is-next .slideshow_container, .slideshow__slide.is-prev-section .slideshow_container, .slideshow__slide.is-next-section .slideshow_container {
+  transform: none !important;
+}
+
+.slideshow__slide-caption-text {
+  position: relative;
+  height: 100%;
+  padding-top: 10%;
+  transition: transform 1.2s cubic-bezier(0.4, 0, 0.2, 1) 0.4s;
+  transform: translate3d(0, 0, 0);
+}
+
+.slideshow__slide.is-prev .slideshow__slide-caption-text {
+  transform: translate3d(-100%, -50%, 0);
+}
+
+.slideshow__slide.is-next .slideshow__slide-caption-text {
+  transform: translate3d(-100%, 10%, 0);
+}
+
+.slideshow__slide.is-prev-section .slideshow__slide-caption-text {
+  transform: translate3d(-100%, -50%, 0);
+  transition: none;
+}
+
+.slideshow__slide.is-next-section .slideshow__slide-caption-text {
+  transform: translate3d(-100%, 10%, 0);
+  transition: none;
+}
+
+.slideshow__slide-caption {
+  position: relative;
+  height: 100%;
+  transform: translate3d(-100%, 10%, 0);
+  transition: transform 1s cubic-bezier(0.4, 0, 0.2, 1) 0.1s;
+}
+
+.is-animated .slideshow__slide-caption {
+  transform: translate3d(0, 0, 0);
+}
+
+.slideshow__slide-caption-title {
+  line-height: 1;
+}
+
+.slideshow__slide-caption-title.-full {
+  width: 100%;
+}
+
+.slideshow__slide-caption-subtitle {
+  display: inline-block;
+  padding: 1.875rem 0;
+}
+
+.slideshow__slide-caption-subtitle.-load {
+  transition: transform 0.9s cubic-bezier(0.4, 0, 0.2, 1) 0.4s;
+  transform: translate3d(0, 3.75rem, 0);
+}
+
+.is-animated .slideshow__slide-caption-subtitle.-load {
+  transform: translate3d(0, 0, 0);
+}
+
+.slideshow__slide-caption-subtitle-label {
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  transform: translateZ(0);
+  display: inline-block;
+}
+
+.o-hsub.-link:hover .slideshow__slide-caption-subtitle-label,
+  .o-hsub-wrap:hover .slideshow__slide-caption-subtitle-label {
+  transform: translateX(20px);
+}
+
+.c-header-home_heading {
+  line-height: 1;
+}
+
+.c-header-home_heading.-full {
+  width: 100%;
+}
+
+.c-header-home_subheading {
+  display: inline-block;
+  padding: 1.875rem 0;
+}
+
+.c-header-home_subheading.-load {
+  transition: transform 0.9s cubic-bezier(0.4, 0, 0.2, 1) 0.4s;
+  transform: translate3d(0, 3.75rem, 0);
+}
+
+.is-loaded .c-header-home_subheading.-load {
+  transform: translate3d(0, 0, 0);
+}
+
+.o-wrap {
+  overflow: hidden;
+}
+
+.o-page.-anim {
+  transform: translate3d(0, 9.375rem, 0);
+  transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.is-loaded .o-page.-anim {
+  transform: translate3d(0, 0, 0);
+}
+
+.js-parallax {
+  transform: translateZ(0);
+  will-change: transform;
+}
+
+.scroll-content {
+  overflow: hidden;
+}
+
+.o-blockquote.-nomargin {
+  margin: 0;
+}
+
+.o-action-link {
+  display: block;
+  padding-top: 12.8125rem;
+  padding-bottom: 7.5rem;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.o-action-link:hover {
+  color: #fff;
+}
+
+.o-action-link_label {
+  display: inline-block;
+  position: relative;
+}
+
+.o-action-link_label::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-bottom: 0.1875rem solid;
+  transform: scaleX(0);
+  transform-origin: center left;
+  transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.o-action-link:hover .o-action-link_label::after {
+  transform: scaleX(1);
+}
+
+.o-hsub {
+  font-size: 12px;
+  padding: 1.25rem 0;
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-weight: 500;
+}
+
+.o-hsub::before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  border-bottom: 1px solid;
+  width: 1.5rem;
+  background-color: #1e1e22;
+  margin-right: 1.125rem;
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  transform-origin: center left;
+}
+
+.o-hsub.-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.o-hsub.-link:hover::before {
+  transform: scaleX(1.5);
+}
+
+.o-hsub-wrap:hover .o-hsub.-link::before {
+  transform: scaleX(1.5);
+}
+
+.o-hsub.-link.-dark {
+  color: #1e1e22;
+}
+
+.o-hsub.-link.-dark:hover {
+  color: #1e1e22;
+}
+
+.o-hsub.-h {
+  vertical-align: middle;
+}
+
+.o-hsub_label {
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  transform: translateZ(0);
+  display: inline-block;
+}
+
+.o-hsub.-link:hover .o-hsub_label,
+.o-hsub-wrap:hover .o-hsub_label {
+  transform: translateX(20px);
+}
+
+.is-loaded .o-loader {
+  visibility: hidden;
+  transition-delay: 0.6s;
+}
+
+.o-container {
+  position: relative;
+  margin: 0 auto;
+}
+
+.slideshow__slide-image.background-absolute {
+  width: 60%;
+  left: 40%;
+}
+
+h1.slideshow__slide-caption-title {
+  padding-left: 98px;
+  padding-right: 98px;
+  padding-top: 50px;
+  color: #d5f83e;
+}
+
+.o-hsub.-link {
+  padding-left: 98px;
+  padding-right: 98px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.o-hsub.-link:hover{
+    color:#d5f83e;
+}
+
+.is-animated .slider-more-button {
+  transform: rotateZ(0deg) translate3d(0, 0, 0);
+}
+
+.slideshow__slide-caption-content p {
+  padding-left: 98px;
+  padding-right: 98px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  font-size: 14px;
+  font-weight: 200;
+  max-height: 218px;
+  letter-spacing: 0.28px;
+  line-height: 28px;
+  margin-top: 20px;
+  opacity: 0;
+  transition: opacity 700ms cubic-bezier(0.8, 0, 0.55, 0.94), transform 700ms cubic-bezier(0.8, 0, 0.55, 0.94);
+  transform: translate3d(-100px, 0, 0);
+  max-width: 40%;
+  width: 40%;
+}
+
+.slideshow__slide.is-current .slideshow__slide-caption-content p {
+  opacity: 1;
+  transition: opacity 700ms cubic-bezier(0.8, 0, 0.55, 0.94) 1470ms, transform 700ms cubic-bezier(0.8, 0, 0.55, 0.94) 1470ms;
+  transform: translate3d(0, 0, 0);
+}
+
+/*-----------------------
+## 3.2 Video
+-----------------------*/
+
+.text-image-video{
+  position: absolute;
+  padding-top: 5em;
+  padding-left: 5em;
+  max-width: 100%;
+  font-size: 22px;
+  z-index: 99;
+}
+
+.down-video {
+  position: absolute;
+  padding-top: 9em;
+  padding-left: 2.8em;
+  font-size: 40px;
+  z-index: 1;
+}
+
+.down-video a{
+  color: #d5f83e;
+}
+
+.avik-social-icons-video{
+  position: absolute;
+  z-index: 11;
+  padding-top: 25%;
+}
+
+.avik-social-icons-video i{
+  color:#d5f83e;
+  font-size: 18px;
+  padding-bottom: 1.2em;
+}
+
+.avik-social-icons-video i:hover{
+  color:#829822;
+  transition: all .4s ease-in-out;
+}
+
+
+.avik-social-icons-video ul{
+  padding-left: 20px;
+}
+
+.video-container {
+  height: 85vh;
+  min-height: 625px;
+  position: relative;
+  overflow: hidden;
+}
+
+video {
+  -o-object-fit: cover;
+  object-fit: cover;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.video-container:after {
+  content: '';
+  display: block;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.content-video-home {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  text-align: center;
+  position: relative;
+  z-index: 10;
+}
+
+/*-----------------------
+## 3.3 Static
+-----------------------*/
+
+.header-static{
+  background-position: 30% 50%;
+  background-size: cover;
+  height: 85vh;
+  overflow: hidden;
+  padding: 0;
+  max-width: 100%;
+  margin-bottom: 8em;
+}
+
+.header-static img{
+  position: relative;
+  width: 100%;
+}
+
+.text-image-static{
+  padding-top: 5em;
+  padding-left: 5em;
+
+}
+
+
+
+/*--------------------------------------------------------------
+	## 4 Who we are
+  --------------------------------------------------------------*/
+
+.tabs{
+  background-color: #f9f9f9;
+}
+
+
+.avik-who-we-are{
+  margin-top: 2em;
+}
+
+.avik-who-we-are h3{
+  padding-left: 50%;
+  padding-bottom:2em;
+  font-weight: bold;
+}
+
+.avik-who-we-are p{
+  padding-left: 50%;
+  text-align: justify;
+}
+
+.img-who-we-are{
+  max-width: 350px;
+  height: 400px;
+}
+
+.who-we-are-image-frame{
+  background: #f6f6f6;
+  padding-top:4em;
+  padding-right:4em;
+  padding-bottom:4em;
+}
+
+.img-whoweare-header{
+  width: 100%;
+
+}
+
+.second-image-who-we-are{
+  padding-top: 5em;
+}
+
+.btn.btn-avik{
+	border:0.003em solid #c2c2c2;
+	border-radius: 0px;
+  color: #464a4e;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  background-color: #ffffff;
+}
+
+.btn.btn-avik:hover{
+	background: #000;
+  color: #d5f83e;
+  border: none;
+}
+
+.btn.btn-avik:hover a{
+	color:#d5f83e;
+}
+
+.avik-who-we-are a{
+  color: #000;
+  text-decoration: none;
+}
+
+.avik-btn-who-we-are{
+  margin-left: 50%;
+}
+
+.header-image-whoweare img{
+	background-position: center center;
+	background-size: cover;
+	overflow: hidden;
+	padding: 0;
+}
+
+.header-image-whoweare img{
+  position: relative;
+}
+
+.text-image-whoweare{
+  position: absolute;
+  padding-top: 5em;
+  padding-left: 5em;
+  max-width: 100%;
+  z-index: 999;
+}
+
+.title-whoweare h3{
+  font-weight: bold;
+  letter-spacing: 3px;
+  margin-bottom: 90px;
+  text-transform: uppercase;
+}
+
+.image-enter-whoweare{
+  padding-top: 0;
+}
+
+.image-thumbnail-portfolio p{
+  text-align: justify;
+}
+
+/* Statistics */
+
+.statistics-box{
+  float: left;
+  padding: 80px 30px;
+  text-align: center;
+}
+
+.statistics{
+  margin-top: 5em;
+  margin-bottom: 5em;
+}
+
+.statistics-box{
+  background-color: #f3f3f3;
+  border-left: 1px solid #ccc;
+}
+
+.statistics-icon span{
+  font-size: 30px;
+}
+
+.statistics-number{
+  color: #444;
+  font-size: 30px;
+  font-weight: 200;
+  margin: 15px 0;
+}
+
+.statistics-text h4{
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 3px;
+  margin-bottom: 0;
+}
+
+/* Writing text Who we are*/
+
+#typed {
+  font-size: 2em;
+  text-transform: capitalize;
+  line-height: 1.5em;
+  letter-spacing: 7px;
+  color: #d5f83e;
+  font-weight: 300;
+  text-shadow: 1px 1px 2px #000;
+  margin: 0.5em 0 0.5em;
+  display: inline-block;
+  background-color: transparent;
+}
+
+#typed i{
+  font-style: normal;
+  color:#fff;
+}
+
+.typed-cursor {
+  opacity: 1;
+  font-weight: bold;
+  -webkit-animation: blink 0.7s infinite;
+  -moz-animation: blink 0.7s infinite;
+  -ms-animation: blink 0.7s infinite;
+  -o-animation: blink 0.7s infinite;
+  animation: blink 0.7s infinite;
+  color: #fff;
+  font-size: 5em;
+}
+
+/* Team */
+
+.team{
+  margin-bottom: 6em;
+}
+
+.team img{
+  background-size: cover;
+  background-position: center center;
+}
+
+.social-team i{
+  font-size: 14px;
+}
+
+.social-team i:hover{
+ color: #d5f83e;
+ transition: all .4s ease-in-out;
+}
+
+.social-team a{
+  color:#fff;
+}
+
+.frame {
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+  perspective: 500px;
+}
+
+.frame img{
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.frame img:hover{
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
+}
+
+.frame .details {
+  position: absolute;
+  top: 7em;
+  left: 1.5em;
+  transform: translate(-50%, -50%) rotateY(90deg);
+  transform-origin: 50%;
+  opacity: 0;
+  transition: all 0.4s ease-in;
+}
+
+.frame:hover .details {
+  transform: translate(-50%, -50%) rotateY(0deg);
+  opacity: 1;
+}
+
+.frame#wth-1 {
+  perspective: none;
+  padding: 1em;
+}
+
+.frame#wth-2 {
+  perspective: none;
+  padding: 1em;
+}
+
+.frame#wth-3 {
+  perspective: none;
+  padding: 1em;
+}
+
+.title-team h3{
+  font-weight: bold;
+  letter-spacing: 3px;
+  margin-bottom: 90px;
+  text-transform: uppercase;
+}
+
+.name-title h4{
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding-top: 1em;
+  color: #000;
+}
+
+.name-title h5{
+  text-transform: capitalize;
+  font-size: 13px;
+  letter-spacing: 1px;
+  color: #858899;
+}
+
+ul.social-team{
+  list-style: none;
+}
+
+/* Carousel brands */
+
+/********************************************* Copyright ******************************************
+Copyright (c) 2018 by Md. Ashiqur Rahman (https://codepen.io/mdashikar/pen/VWPvgE)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+*/
+
+.slick-slide {
+   margin: 0px 20px;
+}
+
+.slick-slider{
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+  -khtml-user-select: none;
+  -ms-touch-action: pan-y;
+  touch-action: pan-y;
+  -webkit-tap-highlight-color: transparent;
+  }
+
+.slick-list{
+  position: relative;
+  display: block;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.slick-list:focus{
+  outline: none;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list{
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+.slick-track{
+  position: relative;
+  top: 0;
+  left: 0;
+  display: block;
+}
+
+.slick-track:before,
+.slick-track:after{
+  display: table;
+  content: '';
+}
+
+.slick-track:after{
+  clear: both;
+}
+
+.slick-loading .slick-track{
+  visibility: hidden;
+}
+
+.slick-slide{
+  display: none;
+  float: left;
+  height: 100%;
+  min-height: 1px;
+}
+
+[dir='rtl'] .slick-slide{
+  float: right;
+}
+
+.slick-slide img{
+  display: block;
+}
+
+.slick-slide.slick-loading img{
+  display: none;
+}
+
+.slick-slide.dragging img{
+  pointer-events: none;
+}
+
+.slick-initialized .slick-slide{
+  display: block;
+}
+
+.slick-loading .slick-slide{
+  visibility: hidden;
+}
+
+.slick-vertical .slick-slide{
+  display: block;
+  height: auto;
+  border: 1px solid transparent;
+}
+
+.slick-arrow.slick-hidden {
+  display: none;
+}
+
+/******************************************** End Copyright *******************************************/
+
+
+.brands h3{
+  font-weight: bold;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding-top: 4em;
+}
+
+.brands h4{
+  color: #4b4b4b;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 3px;
+  font-weight: 300;
+}
+
+.brands{
+  background-color: #e9e9e9;
+  padding-bottom: 5em;
+  margin-top: 5em;
+  margin-bottom: 5em;
+}
+
+.title-brands{
+  margin-bottom: 5em;
+}
+
+.avik-brands img{
+  max-height: 100px;
+}
+
+/*--------------------------------------------------------------
+	## 5 Services
+--------------------------------------------------------------*/
+
+
+.tabs {
+  padding: 100px 0 10px;
+  margin-top: 8em;
+}
+
+.tab {
+  display: none;
+}
+
+.tab.is-visible {
+  display: block;
+}
+
+.tab .btn {
+  margin: 0 auto 30px;
+}
+
+.tab__title {
+  font-size: 23px;
+  font-weight: bold;
+  margin: 0 0 30px 12px;
+}
+
+.tabs__list {
+  margin: 90px 0 20px;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.tabs__list-item {
+  display: block;
+  position: relative;
+  min-height: 120px;
+  margin-bottom: 60px;
+}
+
+.tabs__list-item--fourth {
+  width: 24.9%;
+}
+
+.tabs__list-item--fourth .tabs__list-content {
+  max-width: 210px;
+}
+
+.tabs__list-item--third .tabs__list-content {
+  max-width: 350px;
+}
+
+.tab__subheading h2 {
+  color: #4b4b4b;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 3px;
+  font-weight: 300;
+}
+
+.tab__development {
+  text-align: center;
+  padding: 50px 0 40px;
+  overflow: hidden;
+  position: relative;
+}
+
+.img-avic-services-default{
+  width: 80px!important;
+  height: 80px!important;
+}
+
+.tab__development:hover img {
+  -webkit-filter: grayscale(0%);
+  opacity: 1;
+}
+
+.tab__development::after {
+  content: '';
+  width: 3px;
+  height: 75%;
+  position: absolute;
+  background: #000;
+  right: 0;
+  bottom: 0;
+}
+
+.tab__development:last-child::after {
+  display: none;
+}
+
+.tab__development .full-link {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.tab__development .btn {
+  z-index: 1;
+  position: relative;
+}
+
+.tab__development-img {
+  height: 120px;
+}
+
+.tab__development-img img{
+  transition: all 0.3s ease-in-out;
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+   /* Firefox 10+ */
+   -webkit-backface-visibility: hidden;
+   filter: grayscale(100%) ;
+   -webkit-filter: grayscale(100%);
+}
+
+
+
+.tab__development-title {
+  color: #000;
+  margin: 0 0 50px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.tab__development a{
+  color:#000;
+  text-decoration: none;
+}
+
+.tabs__list{
+  color:#d5f83e;
+}
+
+h3.p-enter-services {
+  color: #1e1e22;
+  text-align: justify;
+  font-size: 18px;
+  line-height: 1.5;
+  padding-left: 8px;
+}
+
+h2.enter-title-services{
+  font-weight: bold;
+}
+
+.tab__development.border-enter-services{
+  padding-top:0;
+}
+
+/* Services enter */
+
+.partners{
+  background-color: #f6f6f6;
+  padding-top: 5em;
+  padding-bottom: 5em;
+}
+
+.gray-effect-partenrs img{
+  transition: all 0.3s ease-in-out;
+  /* Firefox 10+ */
+  filter: gray;
+  -webkit-filter: grayscale(100%);
+  -webkit-backface-visibility: hidden;
+  opacity: .5;
+}
+
+.gray-effect-partenrs img:hover{
+  -webkit-filter: grayscale(0%);
+  opacity: 1;
+}
+
+.title-partenrs h2{
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.title-partenrs h3{
+  color: #4b4b4b;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 3px;
+  font-weight: 300;
+}
+
+.gray-effect-partenrs img{
+  padding-bottom: 1em;
+  padding-top: 1em;
+}
+
+.wpcf7-form-control.wpcf7-select{
+  text-transform: none;
+  color: #fff;
+  background-color: #000;
+  margin-top: 15px;
+}
+
+.content-price{
+  margin-bottom: 5em;
+  margin-top: 2em;
+}
+
+.price-quotation{
+  margin-top: 7em;
+  margin-left: 2em;
+}
+
+.title-price{
+  height: 300px;
+  width: 500px;
+  background-color: #000;
+  color: #fff;
+}
+
+.separator-price::after{
+  content: '';
+  width: 4px;
+  height: 150px;
+  background-color: #d5f83e;
+  position: absolute;
+  top:21em;
+}
+
+.title-price h2{
+  padding-top: 140px;
+  letter-spacing: 4px;
+  font-size: 22px;
+}
+
+.subtitle-price{
+  height: 300px;
+  width: 500px;
+  background-color: #f6f6f6;
+  color: #000;
+}
+
+.subtitle-price h3{
+  padding-top: 130px;
+  letter-spacing: 4px;
+  font-size: 22px;
+}
+
+.subtitle-price h4{
+  letter-spacing: 4px;
+  font-size: 22px;
+}
+
+
+.subtitle-price i{
+  font-size: 42px;
+  padding-top: 15px;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Writing text Services */
+
+#avikservices {
+  font-size: 2em;
+  text-transform: capitalize;
+  line-height: 1.5em;
+  letter-spacing: 7px;
+  font-weight: 300;
+  text-shadow: 1px 1px 2px #000;
+  color:#d5f83e;
+  margin: 0.5em 0 0.5em;
+  display: inline-block;
+  background-color: transparent;
+}
+
+#avikservices i{
+  font-style: normal;
+  color:#fff;
+}
+
+.avikservices-cursor {
+  opacity: 1;
+  font-weight: bold;
+  -webkit-animation: blink 0.7s infinite;
+  -moz-animation: blink 0.7s infinite;
+  -ms-animation: blink 0.7s infinite;
+  -o-animation: blink 0.7s infinite;
+  animation: blink 0.7s infinite;
+  color: #fff;
+  font-size: 5em;
+}
+
+.text-image-services{
+  position: absolute;
+  padding-top: 5em;
+  padding-left: 5em;
+  max-width: 100%;
+}
+
+
+
+/*--------------------------------------------------------------
+	6 ## Portfolio
+--------------------------------------------------------------*/
+
+.details-portfolio a{
+  color: #000;
+}
+
+.portfolio{
+  padding-bottom: 5em;
+  margin-top: 5em;
+  width: 100%;
+  display: inline-block;
+}
+
+.column {
+  display: none;
+
+}
+
+.show {
+  display: block;
+}
+
+.avik-portfolio{
+  position: relative;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.portfolio h3{
+  font-size: 23px;
+  font-weight: bold;
+  padding-bottom: 5px;
+  padding-left: 20px;
+}
+
+ul.list-portfolio{
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+.list-portfolio li{
+  display: inline-block;
+  cursor: pointer;
+  margin-right: 15px;
+  font-size: 14px;
+  color: #777777;
+}
+
+.list-portfolio li.active{
+  color: #000!important;
+}
+
+.portfolio img{
+  width: 100%;
+  height: 300px;
+}
+
+.portfolio img:hover{
+  -webkit-animation:zoom-in-out 0.7s linear 0s 1 normal;
+  -moz-animation:zoom-in-out 0.7s linear 0s 1 normal;
+  -ms-animation:zoom-in-out 0.7s linear 0s 1 normal;
+  animation:zoom-in-out 0.7s linear 0s 1 normal;
+  -webkit-box-shadow:0px 0px 24px 0px #7f817d ;
+  -moz-box-shadow:0px 0px 24px 0px #7f817d ;
+  box-shadow:0px 0px 24px 0px #7f817d ;
+}
+
+
+.tabcontent {
+  -webkit-animation: fadeEffect 2s;
+  animation: fadeEffect 2s;
+}
+
+/* Fade in tabs */
+@-webkit-keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+/*-----------------------
+## 6.1 Page-Portfolio
+-----------------------*/
+
+.details-portfolio{
+  border-left: 1px solid #ccc;
+  padding-left: 1em;
+}
+
+.details-portfolio h3{
+  font-size: 14px;
+  letter-spacing: 3px;
+  font-weight: bold;
+}
+
+.details-portfolio p{
+  font-size: 14px;
+  color:#7d7e7f;
+}
+
+.details-portfolio i{
+ padding-right: 5px;
+ color: #000;
+}
+
+.btn{
+  display: inline!important;
+  font-size: 12px!important;
+}
+
+/*--------------------------------------------------------------
+	7 ## Avik-Blog
+--------------------------------------------------------------*/
+
+.site-main img{
+  max-width: 100%;
+  height: auto;
+}
+
+.avik-blog{
+  padding-top: 3em;
+  padding-bottom: 5em;
+  background-color: #f6f6f6;
+}
+
+.avik-blog h2{
+  font-size: 23px;
+  font-weight: bold;
+}
+
+a.link-blog{
+  text-decoration: none;
+  padding-bottom: 1em;
+}
+
+h2.blog-title{
+  font-size: 18px;
+  color:#000;
+  letter-spacing: 0;
+  line-height: 27px;
+  padding: 30px 0 15px;
+}
+
+.blog-subtitle p{
+  font-size: 15px;
+  color: #748182;
+  line-height: 28px;
+}
+
+.blog-image img{
+  -webkit-filter: grayscale(0%);
+  opacity: 1;
+}
+
+.blog-image img:hover{
+  /* Firefox 10+ */
+  filter: gray;
+  -webkit-filter: grayscale(35%);
+  -webkit-backface-visibility: hidden;
+  opacity: .5;
+  -webkit-box-shadow:0px 0px 10px 1px #000000 ;
+  -moz-box-shadow:0px 0px 10px 1px #000000 ;
+  box-shadow:0px 0px 10px 1px #000000 ;
+  transition: all .4s ease-in-out;
+}
+
+.blog-info{
+  color: #515151;
+}
+
+.blog-info i{
+  padding-right: 8px;
+}
+
+span.blog-info{
+  padding-right: 8px;
+}
+
+/*-----------------------
+## 7.1 Breadcrums
+-----------------------*/
+
+.avikSearch i{
+  font-size: 22px;
+  padding-right: 5px;
+  color: #000;
+}
+
+.avikArchive i{
+  font-size: 22px;
+  padding-right: 5px;
+  color: #000;
+}
+
+.avikArticle i{
+  font-size: 22px;
+  padding-right: 5px;
+  color: #000;
+}
+
+/*-----------------------
+## 7.2 Search
+-----------------------*/
+
+.entry-title a{
+  color:#000;
+}
+
+.cat-links a{
+  color:#888888;
+  padding-right: 10px;
+}
+
+.comments-link a{
+  color:#888888;
+  padding-right: 10px;
+}
+
+.edit-link a{
+  color:#0079b5;
+}
+
+.avik-img-search img{
+  width: 100%;
+  max-height: 450px;
+}
+
+/*-----------------------
+## 7.3 Comments
+-----------------------*/
+
+.logged-in-as a{
+  color:#0079b5;
+}
+
+/*-----------------------
+## 7.4 Page
+-----------------------*/
+
+.entry-content a{
+  color:#0079b5;
+}
+
+.page h1{
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  padding-bottom: 2em;
+}
+
+.title-page{
+  height: 60px;
+}
+
+/*-----------------------
+## 7.5 Archive
+-----------------------*/
+
+.avik-article{
+  padding-bottom: 3em;
+}
+
+.avik-article img{
+  width: 100%;
+  max-height: 450px;
+}
+
+.btn-avik.archive a{
+  color:#000;
+}
+
+/*-----------------------
+## 7.6 Tags
+-----------------------*/
+
+.tags-links a{
+  color:#0079b5;
+  padding-right: 10px;
+}
+
+/*-----------------------
+## 7.7 Pagination
+-----------------------*/
+
+.page-numbers{
+  border: 1px solid #888888;
+  padding: 5px 12px;
+}
+
+.avik-pagination-nav a{
+  color:#000;
+}
+
+.page-numbers.current{
+  background-color: #000;
+  color: #fff;
+}
+
+/*-----------------------
+## 7.8 Article
+-----------------------*/
+
+article{
+  padding-bottom: 4em;
+}
+
+/*--------------------------------------------------------------
+	8 ## Contact
+--------------------------------------------------------------*/
+
+.contact {
+  margin-top: 6em;
+}
+
+.address h3{
+  font-weight: bold;
+  padding-bottom: 2em;
+  padding-left: 2.6em;
+}
+
+.address p {
+  padding-left: 4.6em;
+
+}
+
+.widget-contact{
+  padding:2em;
+}
+
+.widget-contact h3{
+  font-weight: 200;
+  letter-spacing: 4px;
+  padding-bottom: 3em;
+  padding-top: 2.3em;
+}
+
+.paddong-contact{
+  padding-bottom: 3em;
+}
+
+/*-----------------------
+## 8.1 Widget Contact Form
+-----------------------*/
+
+.wpcf7-text{
+  border-left:none;
+  border-right:none;
+  border-top:none;
+  font-size: 13px;
+  width: 480px;
+}
+
+.wpcf7-textarea{
+  border-left:none;
+  border-right:none;
+  border-top:none;
+  height: 50px;
+  border-bottom: 2px solid #eeeeee;
+  font-size: 13px;
+  width: 480px;
+}
+
+.wpcf7-text:focus{
+  border-color:#777777!important;
+  outline: none!important;
+}
+
+.wpcf7-textarea:focus{
+  outline: none!important;
+  border-color:#777777!important;
+}
+
+.wpcf7-submit{
+  border: 2px solid #eeeeee;
+  padding-left: 3em;
+  padding-top: 0.5em;
+  padding-right: 3em;
+  padding-bottom: 0.5em;
+  font-size: 13px;
+  cursor: pointer;
+  float: right;
+}
+
+.wpcf7-submit:hover{
+  background-color: #000;
+  color: #d5f83e;
+  border: none;
+}
+
+.wpcf7-submit:focus{
+  outline: none!important;
+}
+
+div.wpcf7-validation-errors, div.wpcf7-acceptance-missing{
+  border-color: #ffa114!important;
+}
+
+span.wpcf7-not-valid-tip{
+  color:#ffa114!important;
+}
+
+/*-----------------------
+## 8.2 Social Icons Contact
+-----------------------*/
+
+.avik-social-icons-contact{
+  padding-left: 1.7em;
+  list-style: none;
+  max-width: 100%;
+  height: auto;
+}
+
+ul.avik-social-icons-contact-ul{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.avik-social-icons-contact li{
+  padding: 8px;
+}
+
+.avik-social-icons-contact i{
+  font-size: 18px;
+  color: #363636;
+}
+
+.avik-social-icons-contact i:hover{
+  color: #838383;
+  transition: all .4s ease-in-out;
+}
+
+.avik-social-icons-contact a{
+  text-decoration: none!important;
+}
+
+/*-----------------------
+## 8.3 Map
+-----------------------*/
+
+.contact img{
+  width: 100%;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  max-height:600px;
+}
+
+.contact img:hover{
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: all .4s ease-in-out;
+}
+
+.avik-map{
+  position: relative;
+  overflow: hidden;
+  display: block;
+  background-color: #000;
+}
+
+/*-----------------------
+## 9 Footer
+-----------------------*/
+
+.jumbotron{
+  margin-bottom: 0!important;
+  border-radius: 0%!important;
+  text-align: center;
+  background-color: #000;
+}
+
+hr.avik-footer{
+  border-top: 1px solid #fff;
+}
+
+.jumbotron p{
+  color:#fff;
+  font-size: 15px;
+  letter-spacing: 2px;
+  font-weight: 200;
+  padding-bottom: 1em;
+}
+
+.title-power a{
+	color: #ccc;
+}
+
+.title-power a:hover{
+	color: #fff;
+}
+
+
+/*-----------------------
+## 9.1 Social Icons Footer
+-----------------------*/
+
+.avik-social-icons-footer{
+  list-style: none;
+}
+
+
+
+.avik-social-icons-footer li{
+  padding: 7px;
+  display:inline;
+}
+
+.avik-social-icons-footer i{
+  font-size: 18px;
+  color: #d5f83e;
+}
+
+.avik-social-icons-footer i:hover{
+  color: #829822;
+  transition: all .4s ease-in-out;
+}
+
+.avik-social-icons-footer a{
+  text-decoration: none!important;
+}
+
+/* ------------------------------------------------------------------------- *
+##  10 Single Page */
+/* ------------------------------------------------------------------------- */
+
+.info-post h1{
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1;
+  margin: 0;
+  text-transform: capitalize;
+}
+
+.info-ul-blog li{
+
+color: #666;
+    display: inline-block;
+    font-size: 12px;
+    font-style: normal;
+    line-height: 12px;
+    margin: 0;
+    padding: 0 8px 0 0;
+    text-transform: uppercase;
+    position: static;
+}
+ul.info-ul-blog{
+  margin-top: 7px;
+  padding: 0;
+}
+
+.info-post i{
+  margin-right: 5px;
+}
+
+.info-post a{
+  color:#000!important
+}
+
+.info-post a:hover{
+  color:#767474!important;
+}
+
+.icon-post-title{
+  float: left;
+  border-left: 4px solid #000;
+  height: 48px;
+  top: 0;
+  margin-right: 20px;
+}
+
+
+.content-post p{
+  font-size: 16px;
+
+  line-height: 24px;
+}
+
+/* ------------------------------------------------------------------------- *
+##  11 Carousel featured image */
+/* ------------------------------------------------------------------------- */
+
+.owl-theme .owl-controls{
+	margin-top: 10px;
+	text-align: center;
+}
+
+/* Styling Next and Prev buttons */
+
+.owl-theme .owl-controls .owl-buttons div{
+	color: #FFF;
+	display: inline-block;
+	zoom: 1;
+	*display: inline;/*IE7 life-saver */
+	margin: 5px;
+	padding: 3px 10px;
+	font-size: 12px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+	background: #869791;
+	filter: Alpha(Opacity=50);/*IE7 fix*/
+	opacity: 0.5;
+}
+/* Clickable class fix problem with hover on touch devices */
+/* Use it for non-touch hover action */
+.owl-theme .owl-controls.clickable .owl-buttons div:hover{
+	filter: Alpha(Opacity=100);/*IE7 fix*/
+	opacity: 1;
+	text-decoration: none;
+}
+
+/* Styling Pagination*/
+
+.owl-theme .owl-controls .owl-page{
+	display: inline-block;
+	zoom: 1;
+	*display: inline;/*IE7 life-saver */
+}
+.owl-theme .owl-controls .owl-page span{
+	display: block;
+	width: 12px;
+	height: 12px;
+	margin: 5px 7px;
+	filter: Alpha(Opacity=50);/*IE7 fix*/
+	opacity: 0.5;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	background: #869791;
+}
+
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span{
+	filter: Alpha(Opacity=100);/*IE7 fix*/
+	opacity: 1;
+}
+
+/* If PaginationNumbers is true */
+
+.owl-theme .owl-controls .owl-page span.owl-numbers{
+	height: auto;
+	width: auto;
+	color: #FFF;
+	padding: 2px 10px;
+	font-size: 12px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+}
+
+#avik-slider .item{
+  margin: 20px;
+}
+#avik-slider .item img{
+	display: block;
+}
+
+#avik-slider .item h3{
+	text-align: center;
+	font-size: 16px;
+}
+
+/* clearfix */
+.owl-carousel .owl-wrapper:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+/* display none until init */
+.owl-carousel{
+	display: none;
+	position: relative;
+	width: 100%;
+	-ms-touch-action: pan-y;
+}
+.owl-carousel .owl-wrapper{
+	display: none;
+	position: relative;
+	-webkit-transform: translate3d(0px, 0px, 0px);
+}
+.owl-carousel .owl-wrapper-outer{
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+.owl-carousel .owl-wrapper-outer.autoHeight{
+	-webkit-transition: height 500ms ease-in-out;
+	-moz-transition: height 500ms ease-in-out;
+	-ms-transition: height 500ms ease-in-out;
+	-o-transition: height 500ms ease-in-out;
+	transition: height 500ms ease-in-out;
+}
+
+.owl-carousel .owl-item{
+	float: left;
+}
+.owl-controls .owl-page,
+.owl-controls .owl-buttons div{
+	cursor: pointer;
+}
+.owl-controls {
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/* fix */
+.owl-carousel  .owl-wrapper,
+.owl-carousel  .owl-item{
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility:    hidden;
+	-ms-backface-visibility:     hidden;
+  -webkit-transform: translate3d(0,0,0);
+  -moz-transform: translate3d(0,0,0);
+  -ms-transform: translate3d(0,0,0);
+}
+
+/* ------------------------------------------------------------------------- *
+##  12 Page 404 */
+/* ------------------------------------------------------------------------- */
+
+.button-404 a{
+  color:#000;
+}
+
+.button-404 button{
+border: 2px solid #000!important;
+letter-spacing: 2px;
+}
+
+h1.bold-number-404{
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+h2.bold-text-404{
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+.image-404 img{
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 650px;
+
+}
+
+/* ------------------------------------------------------------------------- *
+##  13 Responsive */
+/* ------------------------------------------------------------------------- */
+
+
+/* ------------------------- *
+##  13.1  Element */
+/* ------------------------- */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  .btn.btn-avik{
+    margin-top: 0;
+  }
+
+  }
+
+
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+
+  .btn.btn-avik{
+      margin-top: 0;
+  }
+
+  }
+
+  @media (min-width: 320px) and (max-width: 480px) {
+
+  .btn.btn-avik{
+    margin-top: 0;
+  }
+
+  }
+
+  /* ------------------------- *
+  ##  13.2  Menu */
+  /* ------------------------- */
+
+  @media (max-width: 699px) {
+  .navbar-nav{
+    margin-top: 40px;
+  }
+
+  .fixed-top{
+    padding-left: 10px!important;
+    padding-right: 10px!important;
+  }
+
+  .navbar-nav li{
+    text-align: center;
+    width: 100%;
+    font-size: 24px;
+    border-top: 1px solid #ccc;
+    padding: 10px;
+  }
+  }
+
+  @media (max-width: 768px) {
+    .navbar-nav{
+      margin-top: 40px;
+    }
+
+    .navbar-nav li{
+      text-align: center;
+      width: 100%;
+      font-size: 16px;
+      border-top: 1px solid #f7f7f7;
+      padding: 10px;
+    }
+    }
+
+  /* ------------------------- *
+  ##  13.3  Logo */
+  /* ------------------------- */
+
+  @media (min-width: 320px) and (max-width: 480px) {
+
+  .avik-logo{
+    left:1em!important;
+    top:10px!important;
+  }
+  }
+
+  @media (max-width: 699px) {
+
+  .avik-logo{
+    left:1em!important;
+    top:10px!important;
+    }
+
+  }
+
+  /* ------------------------- *
+  ##  13.4  Slider */
+  /* ------------------------- */
+
+  @media (max-width: 699px) {
+    .c-header-home_footer {
+      padding-top:28em;
+    }
+
+    .slideshow .slideshow__slide {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+    }
+
+    .slideshow h1{
+      font-size: 24px;
+      font-weight: 400;
+      padding-top:60px;
+      padding-left: 28px;
+    }
+
+    .slideshow__slide-caption-content p{
+      display: none;
+    }
+
+    .o-hsub.-link{
+      padding-left: 28px;
+    }
+  }
+
+  @media (max-width: 768px) {
+
+  .slideshow h1{
+    font-size: 24px;
+    font-weight: 400;
+    padding-top:60px;
+    padding-left: 28px;
+  }
+
+  .slideshow__slide-caption-content p{
+    max-width: 100%;
+    width: 100%;
+    padding-left: 28px;
+  }
+
+  .o-hsub.-link{
+    padding-left: 28px;
+  }
+
+
+  }
+
+  @media (min-width: 700px) {
+    .slideshow .slideshow__slide {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+    }
+  }
+
+  @media (max-height: 500px) {
+    .slideshow__slide-caption-title {
+      margin-bottom: 0 !important;
+    }
+  }
+
+  @media (max-width: 699px) {
+    .slideshow__slide-caption-title {
+      font-size: 40px;
+    }
+
+    .slideshow.-full .slideshow__slide-caption-title {
+      margin-bottom: 30px;
+    }
+  }
+
+  @media (min-width: 700px) {
+    .slideshow__slide-caption-title {
+      font-size: 5.625rem;
+      margin-bottom: 1.25rem;
+    }
+  }
+
+  @media (min-width: 700px) and (max-width: 749px) {
+    .slideshow__slide-caption-title {
+      font-size: 4.375rem;
+    }
+  }
+
+  @media (min-width: 1600px) {
+    .slideshow__slide-caption-title {
+      font-size: 6.25rem;
+    }
+  }
+
+  @media (max-height: 500px) {
+    .c-header-home_heading {
+      margin-bottom: 0 !important;
+    }
+  }
+
+  @media (max-width: 699px) {
+    .c-header-home_heading {
+      font-size: 40px;
+      margin-bottom: 150px;
+    }
+
+    .c-header-home.-full .c-header-home_heading {
+      margin-bottom: 30px;
+    }
+  }
+
+  @media (min-width: 700px) {
+    .c-header-home_heading {
+      font-size: 5.625rem;
+      margin-bottom: 1.25rem;
+    }
+  }
+
+  @media (min-width: 700px) and (max-width: 749px) {
+    .c-header-home_heading {
+      font-size: 4.375rem;
+    }
+  }
+
+  @media (min-width: 1600px) {
+    .c-header-home_heading {
+      font-size: 6.25rem;
+    }
+  }
+
+  @media (max-width: 699px) {
+    .c-header-home_button {
+      width: 50% !important;
+    }
+  }
+
+  @media (min-width: 700px) {
+    .c-header-home_button {
+      width: 15.625rem;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    body {
+      height: 100%;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .o-scroll {
+      height: 100%;
+    }
+  }
+
+  @media (max-width: 699px) {
+    .o-action-link {
+      font-size: 40px;
+      padding-top: 120px;
+    }
+  }
+
+  @media (max-width: 1199px) {
+    .o-action-link {
+      color: #1e1e22;
+    }
+  }
+
+  @media (min-width: 700px) {
+    .o-action-link {
+      font-size: 5.625rem;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .o-action-link {
+      color: #fff;
+    }
+  }
+
+  @media (max-width: 699px) {
+    .o-hsub.-h {
+      display: block;
+      margin-top: 20px;
+    }
+  }
+
+  @media (min-width: 700px) {
+    .o-hsub.-h {
+      margin-left: 2.5rem;
+    }
+  }
+
+  @media (max-height: 500px) {
+    .c-header-home_heading {
+      margin-bottom: 0 !important;
+    }
+  }
+
+  @media (max-width: 699px) {
+    .c-header-home_heading {
+      font-size: 40px;
+      margin-bottom: 150px;
+    }
+
+    .c-header-home.-full .c-header-home_heading {
+      margin-bottom: 30px;
+    }
+  }
+
+  @media (min-width: 700px) {
+    .c-header-home_heading {
+      font-size: 5.625rem;
+      margin-bottom: 1.25rem;
+    }
+  }
+
+  @media (min-width: 700px) and (max-width: 749px) {
+    .c-header-home_heading {
+      font-size: 4.375rem;
+    }
+  }
+
+  @media (min-width: 1600px) {
+    .c-header-home_heading {
+      font-size: 6.25rem;
+    }
+  }
+
+  /* ------------------------- *
+  ##  13.5 Who we are */
+  /* ------------------------- */
+
+  @media (min-width: 320px) and (max-width: 480px) {
+
+  .img-who-we-are.two{
+    max-width: 260px;
+  }
+
+  .img-who-we-are{
+    max-width: 220px;
+  }
+
+  .avik-who-we-are h3{
+    text-align: center;
+    padding-left: 0.2em;
+  }
+
+  .avik-who-we-are p{
+    text-align: center;
+    padding-left: 0.2em;
+  }
+
+  .avik-who-we-are{
+    margin-top: 5em;
+  }
+
+  }
+
+  @media screen and (max-width: 768px) {
+
+  .avik-who-we-are h3{
+    text-align: center;
+  }
+
+  .avik-who-we-are p{
+    text-align: left;
+    padding-left: 2em;
+  }
+
+  .avik-who-we-are{
+    margin-top: 5em;
+  }
+
+  .avik-btn-who-we-are{
+    margin-left: 2em;
+    margin-bottom: 2em;
+
+  }
+
+  }
+
+  /* text writer Who we are  */
+
+@media (max-width: 699px) {
+  #typed{
+    font-size:14px;
+    letter-spacing: 3px;
+  }
+
+  .typed-cursor{
+    font-size: 2em;
+  }
+
+  .text-image-whoweare{
+   padding-left: 2em;
+  }
+
+  .avik-who-we-are h3{
+    padding-bottom: 1em!important;
+  }
+
+  .title-whoweare h3{
+    margin-bottom: 45px!important;
+  }
+
+  .image-enter-whoweare{
+    padding-left: 0!important;
+  }
+
+}
+
+  /* Statistics */
+
+  @media (max-width: 699px) {
+  .statistics-box{
+    border-top:1px solid #ccc;
+  }
+  }
+
+  /* Patner */
+
+  @media (max-width: 699px) {
+  .avik-brands img{
+    max-height: 70px!important;
+  }
+
+  }
+
+  /* ------------------------- *
+  ##  13.6 Services */
+  /* ------------------------- */
+
+
+  @media screen and (max-width: 1370px) {
+    .tabs {
+      padding: 70px 0 0;
+    }
+
+    .tabs__list {
+      margin: 90px 0 40px;
+    }
+
+    .tabs__list-item--third {
+      padding-right: 20px;
+    }
+  }
+
+  @media screen and (max-width: 1200px) {
+    .tab__development-full {
+      padding: 0 20px 20px;
+    }
+
+    .team__list-item--back__inner {
+      bottom: 15px;
+    }
+
+    .team__list-item--back {
+      padding: 0;
+    }
+
+    .team__list-item-name {
+      line-height: 20px;
+    }
+
+    .team__list-item-job {
+      margin-bottom: 15px;
+    }
+  }
+
+  @media screen and (max-width: 1024px) {
+
+    .tab__development-img img{
+      opacity: 1;
+      -webkit-filter: grayscale(0%);
+      filter: grayscale(0%);
+    }
+    }
+
+  @media screen and (max-width: 1000px) {
+    .tabs {
+      background-size: cover;
+    }
+
+    .tabs__list-item--fourth {
+      width: 49.9%;
+    }
+
+    .tabs__list-item--third {
+      width: 49.9%;
+    }
+
+    .tab__development:nth-child(2n)::after {
+      display: none;
+    }
+
+    .team__list-item {
+      width: 33.333%;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+
+  .tab__development-img img{
+    opacity: 1;
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+  }
+  }
+
+  @media screen and (max-width: 670px) {
+
+    .tab__development-img img{
+      opacity: 1;
+      -webkit-filter: grayscale(0%);
+      filter: grayscale(0%);
+    }
+
+    .tabs{
+    margin-top:4em;
+    }
+
+    .tab__development{
+      padding: 10px;
+    }
+
+    .tab__subheading h2{
+      text-align: center!important;
+      padding-left: 0;
+    }
+
+    .tab__title {
+      font-size: 25px;
+      text-align: center!important;
+      padding-left: 0;
+      margin-left: 0!important;
+    }
+
+    .tabs__list-item {
+      width: 100%;
+      margin-bottom: 20px;
+      float: none;
+    }
+
+    .tabs__list-item--third {
+      padding-right: 0;
+    }
+
+    .tabs__list-item--third .tabs__list-content {
+      max-width: 100%;
+    }
+
+    .tab__development::after {
+      display: none;
+    }
+
+    .tab__development-img{
+      text-align: center;
+    }
+  }
+
+  @media screen and (max-width: 470px) {
+
+    .tabs__list {
+      margin-top: 50px;
+    }
+
+    .tabs__list-item--fourth{
+      max-width: 100%;
+      text-align: left;
+    }
+  }
+
+  @media (max-width: 699px) {
+
+    .title-price{
+      width: 100%!important;
+  }
+
+    .subtitle-price{
+      width: 100%!important;
+  }
+
+  .tabs p{
+    text-align: center;
+  }
+
+  .price-quotation{
+    margin-left: 0!important;
+  }
+
+  .content-price{
+    margin-top: 2px!important;
+  }
+  .partenrs-services {
+    text-align: center;
+  }
+
+
+  }
+
+  @media (max-width: 699px) {
+
+    .gray-effect-partenrs img{
+      opacity: 1!important;
+      -webkit-filter: grayscale(0%)!important;
+      filter: grayscale(0%)!important;
+  }
+
+  }
+
+  @media screen and (max-width: 768px) {
+    .gray-effect-partenrs img{
+      opacity: 1!important;
+      -webkit-filter: grayscale(0%)!important;
+      filter: grayscale(0%)!important;
+  }
+
+  }
+
+  /* text writer Services  */
+
+@media (max-width: 699px) {
+  #avikservices{
+    font-size:14px;
+    letter-spacing: 3px;
+  }
+
+  .avikservices-cursor{
+    font-size: 2em;
+  }
+
+  .text-image-services{
+   padding-left: 2em;
+  }
+
+}
+
+  /* ------------------------- *
+  ##  13.7 Portfolio */
+  /* ------------------------- */
+
+  @media (max-width: 699px) {
+  .portfolio{
+    margin-top: 15px!important;
+  }
+}
+
+  /* ------------------------- *
+  ##  13.8 Avik Blog */
+  /* ------------------------- */
+
+  @media (max-width: 699px) {
+  .blog-image img{
+    max-height: 250px;
+  }
+
+  h2.blog{
+    padding-right: 18px!important;
+  }
+
+  textarea{
+    font-size: 10px!important;
+  }
+  input{
+    font-size: 10px!important;
+  }
+
+  }
+
+  @media (max-width: 568px) {
+
+    textarea{
+      font-size: 7px!important;
+    }
+    input{
+      font-size: 10px!important;
+    }
+  }
+
+  @media (max-width: 667px) {
+    textarea{
+      font-size: 9px!important;
+    }
+
+  }
+
+  /* ------------------------- *
+  ##  13.9 Contact */
+  /* ------------------------- */
+
+  @media (max-width: 699px) {
+
+  .wpcf7-text{
+    width: 100%;
+  }
+
+  .wpcf7-textarea{
+    width: 100%;
+  }
+
+  .contact{
+    margin-top:3em!important;
+  }
+
+  .avik-social-icons-contact li{
+    padding: 6px!important;
+  }
+
+  ul.avik-social-icons-contact-ul{
+    padding-left: 0!important;
+  }
+
+  .widget-contact{
+    padding: 5px!important;
+  }
+
+  .contact-info li{
+    padding-left: 3px!important;
+  }
+
+  .wpcf7-submit{
+    margin-right: 3em!important;
+  }
+
+  .address{
+    padding-left: 0!important;
+  }
+
+  .address h3{
+    padding-left: 1.5em!important;
+  }
+
+}
+
+/* ------------------------- *
+##  13.10 Page 404 */
+/* ------------------------- */
+
+@media (max-width: 699px) {
+
+  .image-404 img{
+    height: auto;
+  }
+
+}
+
+
+/* ------------------------- *
+##  13.11 Video */
+/* ------------------------- */
+
+@media (max-width: 699px) {
+
+  .text-image-video{
+    padding-left: 2.5em!important;
+  }
+
+  .down-video {
+    padding-left: 1.7em!important;
+    font-size: 30px!important;
+  }
+
+}
+
+@media (min-width: 600px) {
+  .video-container {
+    height: 85vh;
+    min-height: 625px;
+  }
+}
+
+
+/* ------------------------- *
+##  13.13 Footer */
+/* ------------------------- */
+
+@media (max-width: 699px) {
+
+.avik-social-icons-footer{
+  padding-top: 2em;
+  margin-left: 2.5em!important;
+
+}
+
+.avik-social-icons-footer li{
+  padding-right: 8px;
+}
+
+
+}
+
+.wp-custom-header iframe,
+.wp-custom-header img,
+.wp-custom-header video {
+	display: block;
+	height: 85vh!important;
+	width: 100%;
+}
+
+
+.wp-custom-header-video-play,
+.wp-custom-header-video-pause{
+  background-color: #000000;
+  color: #d5f83e;
+  position: absolute;
+  z-index: 9999999;
+  top: 10px;
+  left: 90%;
+  cursor: pointer;
+}
+
+
+.wp-custom-header{
+  position: absolute;
+  height: 85vh;
+  overflow: hidden;
+  padding: 0;
+  margin-bottom: 4em;
+  width: 100%;
+}
+
+
+
+#wp-custom-header-video{
+  position: relative;
+}
+
+@media (max-width: 699px) {
+
+  .wp-custom-header-video-play, .wp-custom-header-video-pause{
+    left: 80%!important;
+  }
+
+}
+
+.tab__development-img img{
+  font-size: 48px;
+}
+
+
+.header-image-services img{
+  background-position: center center;
+  background-size: cover;
+  height: 650px;
+  width: 100%;
+  overflow: hidden;
+  padding: 0;
+  margin-bottom: 5em;
+}
+
+/* Responsive Image */
+
+img{
+	max-width: 100%!important;
+	height: auto!important;
+	background-size: cover!important;
+}
+
+/* End Responsive Image */
+
+.filter-header.avik-static-filter{
+	height: 85vh;
+}

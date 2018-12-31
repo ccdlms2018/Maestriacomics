@@ -1,0 +1,807 @@
+# Copyright (C) 2017 Automattic
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: _s 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/tags/_s\n"
+"POT-Creation-Date: 2016-12-23 16:00+0100\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2018-12-07 15:25+0100\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.0.7\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: it\n"
+
+# Customizer
+#: inc/customizer.php:74
+msgid "Enable/Disable rotation logo"
+msgstr "Abilita/Disabilita la rotazione del logo"
+
+#: inc/customizer.php:88
+msgid "Font size Logo (px)"
+msgstr "Dimensione del logo (px)"
+
+#: inc/customizer.php:115
+msgid "Select Static/Video or Slider for Header"
+msgstr "Seleziona Static/Video o la Slider per l'Header"
+
+#: inc/customizer.php:136
+msgid "Enable/Disable filter color Header"
+msgstr "Abilita/Disabilita il filtro colore per l'Header"
+
+#: inc/customizer.php:153
+msgid "Color filter Heder"
+msgstr "Colore filtro Header"
+
+#: inc/customizer.php:198
+msgid "Select a category for the post slider 1"
+msgstr "Seleziona una categoria per i post della slider 1"
+
+#: inc/customizer.php:230
+msgid "Select a category for the post slider 2"
+msgstr "Seleziona una categoria per i post della slider 2"
+
+#: inc/customizer.php:262
+msgid "Select a category for the post slider 3"
+msgstr "Seleziona una categoria per i post della slider 3"
+
+#: inc/customizer.php:287
+msgid "Select a category for the post Header Static/Video"
+msgstr "Seleziona una categoria per i post Static/Video del' Header"
+
+#: inc/customizer.php:301
+msgid "Who we are"
+msgstr "Chi siamo"
+
+#: inc/customizer.php:312
+msgid "Page Who we are"
+msgstr "Pagina Chi siamo"
+
+#: inc/customizer.php:329
+msgid "Page id Who we are"
+msgstr "ID Pagina Chi siamo"
+
+#: inc/customizer.php:330
+msgid "Select your page for section Who we are."
+msgstr "Seleziona una pagina per la sezione Pagina Chi siamo."
+
+#: inc/customizer.php:337
+msgid "Statistics Who we are"
+msgstr "Statistiche Chi siamo"
+
+#: inc/customizer.php:349
+msgid "General Statistics"
+msgstr "Generale Statistiche"
+
+#: inc/customizer.php:367
+msgid "Enable/Disable Section Statistics."
+msgstr "Abilita/Disabilita la sezione Statistiche."
+
+#: inc/customizer.php:377
+msgid "Statistics 1"
+msgstr "Statistiche 1"
+
+#: inc/customizer.php:396
+msgid "Icon 1"
+msgstr "Icona 1"
+
+#: inc/customizer.php:539
+msgid "Max numbers for statistics 1"
+msgstr "Numero massimo per la statistica 1"
+
+#: inc/customizer.php:540
+msgid "Insert a custom number."
+msgstr "Inserisci un numero."
+
+#: inc/customizer.php:556
+msgid "Title for statistics 1"
+msgstr "Titolo per la statistica 1"
+
+#: inc/customizer.php:564
+msgid "Statistics 2"
+msgstr "Statistiche 2"
+
+#: inc/customizer.php:583
+msgid "Icon 2"
+msgstr "Icona 2"
+
+#: inc/customizer.php:727
+msgid "Max numbers for statistics 2"
+msgstr "Numero massimo per la statistica 2"
+
+#: inc/customizer.php:744
+msgid "Title for statistics 2"
+msgstr "Titolo per la statistica 2"
+
+#: inc/customizer.php:752
+msgid "Statistics 3"
+msgstr "Statistiche 3"
+
+#: inc/customizer.php:771
+msgid "Icon 3"
+msgstr "Icona 3"
+
+#: inc/customizer.php:915
+msgid "Max numbers for statistics 3"
+msgstr "Numero massimo per la statistica 3"
+
+#: inc/customizer.php:932
+msgid "Title for statistics 3"
+msgstr "Titolo per la statistica 3"
+
+#: inc/customizer.php:940
+msgid "Statistics 4"
+msgstr "Statistiche 4"
+
+#: inc/customizer.php:959
+msgid "Icon 4"
+msgstr "Icona 4"
+
+#: inc/customizer.php:1103
+msgid "Max numbers for statistics 4"
+msgstr "Numero massimo per la statistica 4"
+
+#: inc/customizer.php:1120
+msgid "Title for statistics 4"
+msgstr "Titolo per la statistica 4"
+
+#: inc/customizer.php:1126
+msgid "Team Who we are"
+msgstr "Team Chi Siamo"
+
+#: inc/customizer.php:1138
+msgid "General Team"
+msgstr "Generale Team"
+
+#: inc/customizer.php:1156
+msgid "Enable/Disable Section Team."
+msgstr "Abilita/Disabilita la sezione Team."
+
+#: inc/customizer.php:1175
+msgid "Title general Team"
+msgstr "Titolo generale Team"
+
+#: inc/customizer.php:1206
+msgid "Select Category Post for Team 1"
+msgstr "Seleziona una categoria per i post del Team 1"
+
+#: inc/customizer.php:1207
+msgid "Select the category to show the posts for Team 1."
+msgstr "Seleziona una categoria per i post del Team 1."
+
+#: inc/customizer.php:1228
+msgid "Enable/Disable Facebook."
+msgstr "Abilita/Disabilita Facebook."
+
+#: inc/customizer.php:1253
+msgid "Enter link..."
+msgstr "Inserisci il link..."
+
+#: inc/customizer.php:1267
+msgid "Enable/Disable Twitter."
+msgstr "Abilita/Disabilita Twitter."
+
+#: inc/customizer.php:1306
+msgid "Enable/Disable Instagram."
+msgstr "Abilita/Disabilita Instagram."
+
+#: inc/customizer.php:1345
+msgid "Enable/Disable Linkedin."
+msgstr "Abilita/Disabilita Linkedin."
+
+#: inc/customizer.php:1384
+msgid "Enable/Disable Google Plus."
+msgstr "Abilita/Disabilita Google Plus."
+
+#: inc/customizer.php:1440
+msgid "Select Category Post for Team 2"
+msgstr "Seleziona una categoria per i post del Team 2"
+
+#: inc/customizer.php:1441
+msgid "Select the category to show the posts for Team 2."
+msgstr "Seleziona una categoria per i post del Team 2."
+
+#: inc/customizer.php:1673
+msgid "Select Category Post for Team 3"
+msgstr "Seleziona una categoria per i post del Team 3"
+
+#: inc/customizer.php:1674
+msgid "Select the category to show the posts for Team 3."
+msgstr "Seleziona una categoria per i post del Team 3."
+
+#: inc/customizer.php:1902
+msgid "Enable/Disable Section Partenr."
+msgstr "Abilita/Disabilita la sezione Partner."
+
+#: inc/customizer.php:1920
+msgid "Title Partner"
+msgstr "Titolo Partner"
+
+#: inc/customizer.php:1936
+msgid "Subtitle Partner"
+msgstr "Sottotitolo Partner"
+
+#: inc/customizer.php:1954
+msgid "Select Category Post for Brands"
+msgstr "Seleziona una categoria per i Brands"
+
+#: inc/customizer.php:1955
+msgid "Select the category to show the posts for Brands."
+msgstr "Seleziona una categoria per i Brands."
+
+#: inc/customizer.php:1969
+msgid "Services"
+msgstr "Servizi"
+
+#: inc/customizer.php:1980
+msgid "Settings Services"
+msgstr "Impostazioni Servizi"
+
+#: inc/customizer.php:2000
+msgid "Title Services"
+msgstr "Titolo Servizi"
+
+#: inc/customizer.php:2016
+msgid "Subtitle Services"
+msgstr "Sottotitolo Servizi"
+
+#: inc/customizer.php:2035
+msgid "Select Category Post Services"
+msgstr "Seleziona una categoria per i post dei Servizi"
+
+#: inc/customizer.php:2036
+msgid "Select the category to show the posts for Services."
+msgstr "Seleziona una categoria per i post dei Servizi."
+
+#: inc/customizer.php:2050
+msgid "Partners Services"
+msgstr "Partners Servizi"
+
+#: inc/customizer.php:2068
+msgid "Enable/Disable Section Partners Services."
+msgstr "Abilita/Disabilita la sezione Partners Servizi."
+
+#: inc/customizer.php:2086
+msgid "Title Partners"
+msgstr "Titolo Partners"
+
+#: inc/customizer.php:2102
+msgid "Subtitle Partners"
+msgstr "Sottotitolo Partners"
+
+#: inc/customizer.php:2120
+msgid "Select Category Post for Partners"
+msgstr "Seleziona una categoria per i Partners"
+
+#: inc/customizer.php:2121
+msgid "Select the category to show the posts for Partners."
+msgstr "Seleziona una categoria per i Partners."
+
+#: inc/customizer.php:2134
+msgid "Quotation Services"
+msgstr "Quotazione Servizi"
+
+#: inc/customizer.php:2152
+msgid "Enable/Disable Section Quotation."
+msgstr "Abilita/Disabilita la sezione Quotazione."
+
+#: inc/customizer.php:2170
+msgid "Title 1 for quotation"
+msgstr "Titolo 1 per Quotazione"
+
+#: inc/customizer.php:2186
+msgid "Subtitle 1 for quotation"
+msgstr "Sottotitolo 1 per Quotazione"
+
+#: inc/customizer.php:2202
+msgid "Title 2 for quotation"
+msgstr "Titolo 2 per Quotazione"
+
+#: inc/customizer.php:2218
+msgid "Subtitle 2 for quotation"
+msgstr "Sottotitolo 2 per Quotazione"
+
+#: inc/customizer.php:2232
+msgid "Enable/Disable Arrow quotation."
+msgstr "Abilita/Disabilita l'Arrow per Quotazione."
+
+#: inc/customizer.php:2253
+msgid "Settings Portfolio"
+msgstr "Impostazioni Portfolio"
+
+#: inc/customizer.php:2273
+msgid "Title Portfolio"
+msgstr "Titolo Portfolio"
+
+#: inc/customizer.php:2301
+msgid "Title Nav all Portfolio"
+msgstr "Titolo Nav generale Portfolio"
+
+#: inc/customizer.php:2317
+msgid "Title Nav column 1 Portfolio"
+msgstr "Titolo Nav colonna 1 Portfolio"
+
+#: inc/customizer.php:2333
+msgid "Title Nav column 2 Portfolio"
+msgstr "Titolo Nav colonna 2 Portfolio"
+
+#: inc/customizer.php:2349
+msgid "Title Nav column 3 Portfolio"
+msgstr "Titolo Nav colonna 3 Portfolio"
+
+#: inc/customizer.php:2357
+msgid "Column 1 Portfolio"
+msgstr "Colonna 1 Portfolio"
+
+#: inc/customizer.php:2379
+msgid "Select Category Portfolio C 1"
+msgstr "Seleziona la categoria C 1 Portfolio"
+
+#: inc/customizer.php:2380
+msgid "Select the category to show the last posts in Portfolio Column 1."
+msgstr "Seleziona la categoria per i post della Colonna 1 Portfolio."
+
+#: inc/customizer.php:2393
+msgid "Column 2 Portfolio"
+msgstr "Colonna 2 Portfolio"
+
+#: inc/customizer.php:2415
+msgid "Select Category Portfolio C 2"
+msgstr "Seleziona la categoria C 2 Portfolio"
+
+#: inc/customizer.php:2416
+msgid "Select the category to show the last posts in Portfolio Column 2."
+msgstr "Seleziona la categoria per i post della Colonna 2 Portfolio."
+
+#: inc/customizer.php:2429
+msgid "Column 3 Portfolio"
+msgstr "Colonna 3 Portfolio"
+
+#: inc/customizer.php:2451
+msgid "Select Category Portfolio C 3"
+msgstr "Seleziona la categoria C 3 Portfolio"
+
+#: inc/customizer.php:2452
+msgid "Select the category to show the last posts in Portfolio Column 3."
+msgstr "Seleziona la categoria per i post della Colonna 3 Portfolio."
+
+#: inc/customizer.php:2477
+msgid "Settings Blog"
+msgstr "Impostazioni Blog"
+
+#: inc/customizer.php:2497
+msgid "Title Blog"
+msgstr "Titolo Blog"
+
+#: inc/customizer.php:2515
+msgid "Select Category Post Blog"
+msgstr "Seleziona una categoria per i post del Blog"
+
+#: inc/customizer.php:2516
+msgid "Select the category to show the last posts in Home."
+msgstr "Seleziona una categoria per i post del Blog in Home."
+
+#: inc/customizer.php:2535
+msgid "Enable/Disable time end comments Blog Home."
+msgstr "Abilita/Disabilita la data e i commenti del Blog in Home."
+
+#: inc/customizer.php:2551
+msgid "Enable/Disable carousel Blog."
+msgstr "Abilita/Disabilita il carousel del Blog."
+
+#: inc/customizer.php:2571
+msgid "Select Category Post for carousel"
+msgstr "Seleziona una categoria per i post del carousel"
+
+#: inc/customizer.php:2572
+msgid "Select the category to show the last posts in the carousel."
+msgstr "Seleziona una categoria per i post del carousel."
+
+#: inc/customizer.php:2596
+msgid "Number of posts"
+msgstr "Numero dei post"
+
+#: inc/customizer.php:2597
+msgid "Select number of post to show in the carousel."
+msgstr "Numero dei post da mostrare nel carousel."
+
+#: inc/customizer.php:2618
+msgid "Enable/Disable sidebar for Smartphone."
+msgstr "Abilita/Disabilita la sidebar negli Smartphone."
+
+#: inc/customizer.php:2628
+msgid "Contact"
+msgstr "Contatti"
+
+#: inc/customizer.php:2639
+msgid "Settings Contact"
+msgstr "Impostazioni Contatti"
+
+#: inc/customizer.php:2661
+msgid "Select Category Post Contact"
+msgstr "Seleziona una categoria per i Contatti"
+
+#: inc/customizer.php:2662
+msgid "Select the category to show the posts in Contact."
+msgstr "Seleziona una categoria per i Contatti."
+
+#: inc/customizer.php:2704
+msgid "Enable/Disable copyright"
+msgstr "Abilita/Disabilita copyright"
+
+#: inc/customizer.php:2720
+msgid "Enable/Disable (power by)."
+msgstr "Abilita/Disabilita (power by)."
+
+#: inc/customizer.php:2739
+msgid "Custom (Power by)"
+msgstr "Personalizzazione (power by)"
+
+#: inc/customizer.php:2747
+msgid "Page 404"
+msgstr "Pagina 404"
+
+#: inc/customizer.php:2758
+msgid "Settings Page 404"
+msgstr "Impostazioni Pagina 404"
+
+#: inc/customizer.php:2780
+msgid "Select a category for the page 404"
+msgstr "Seleziona una categoria per la Pagina 404"
+
+#: inc/customizer.php:2803
+msgid "Settings Back To Top"
+msgstr "Impostazioni Back To Top"
+
+#: inc/customizer.php:2821
+msgid "Enable/Disable Back To Top."
+msgstr "Abilita/Disabilita Back To Top."
+
+#: inc/customizer.php:2837
+msgid "Enable/Disable Back To Top for Smartphone."
+msgstr "Abilita/Disabilita Back To Top per gli Smartphone."
+
+#: inc/customizer.php:2858
+msgid "Settings Social"
+msgstr "Impostazioni Social"
+
+#: inc/customizer.php:2993
+msgid "Enable/Disable Dribbble."
+msgstr "Abilita/Disabilita Dribbble."
+
+#: inc/customizer.php:3032
+msgid "Enable/Disable Tumblr."
+msgstr "Abilita/Disabilita Tumblr."
+
+#: inc/customizer.php:3149
+msgid "Enable/Disable Youtube."
+msgstr "Abilita/Disabilita Youtube."
+
+#: inc/customizer.php:3188
+msgid "Enable/Disable Pinterest."
+msgstr "Abilita/Disabilita Pinterest."
+
+#: inc/customizer.php:3227
+msgid "Enable/Disable Flickr."
+msgstr "Abilita/Disabilita Flickr."
+
+#: inc/customizer.php:3266
+msgid "Enable/Disable Github."
+msgstr "Abilita/Disabilita Github."
+
+#: inc/customizer.php:3311
+msgid "Settings Share"
+msgstr "Impostazioni Share"
+
+#: inc/customizer.php:3331
+msgid "Title Share"
+msgstr "Titolo Share"
+
+#: inc/customizer.php:3425
+msgid "Enable/Disable Whatsapp."
+msgstr "Abilita/Disabilita Whatsapp."
+
+#: inc/customizer.php:3447
+msgid "Settings Font Family"
+msgstr "Impostazioni Font Family"
+
+#: inc/customizer.php:3462
+msgid "Font family for paragraph"
+msgstr "Font Family per i paragrafi"
+
+#: inc/customizer.php:3476
+msgid "Font family for title"
+msgstr "Font Family per i titoli"
+
+#: inc/customizer.php:3502
+msgid "Enter api key..."
+msgstr "Inserisci api key..."
+
+#: inc/customizer.php:2704
+msgid "Enable/Disable copyright Site."
+msgstr "Abilita/Disabilita il Copyright del Sito."
+
+# Color scheme
+#: inc/color-scheme.php:36
+msgid "Choose the most suitable skins for your site, or change the colors as you wish"
+msgstr "Scegli le skin più adatte al tuo sito o cambia i colori come preferisci"
+
+#: inc/color-scheme.php:43
+msgid "Link color"
+msgstr "Colore Link"
+
+#: inc/color-scheme.php:44
+msgid "Button background color"
+msgstr "Colore sfondo pulsanti"
+
+#: inc/color-scheme.php:45
+msgid "Button hover background color"
+msgstr "Colore sfondo hover pulsanti"
+
+#: inc/color-scheme.php:46
+msgid "Text Slider/Video/Static color"
+msgstr "Colore testo Slider/Video/Static"
+
+#: inc/color-scheme.php:47
+msgid "Slider background color"
+msgstr "Colore sfondo Slider"
+
+#: inc/color-scheme.php:48
+msgid "Who we are background color"
+msgstr "Colore sfondo Chi siamo"
+
+#: inc/color-scheme.php:49
+msgid "Subtitle automatic writing color"
+msgstr "Colore sottotitolo scrittura automatica"
+
+#: inc/color-scheme.php:50
+msgid "Cursor automatic writing color"
+msgstr "Colore cursore scrittura automatica"
+
+#: inc/color-scheme.php:51
+msgid "Services background color"
+msgstr "Colore sfondo Servizi"
+
+#: inc/color-scheme.php:52
+msgid "Quotation background color"
+msgstr "Colore sfondo quotazione"
+
+#: inc/color-scheme.php:53
+msgid "Footer background color"
+msgstr "Colore sfondo Footer"
+
+#: inc/color-scheme.php:54
+msgid "Text Footer color"
+msgstr "Colore testo Footer"
+
+#: inc/color-scheme.php:55
+msgid "Back to top background color"
+msgstr "Colore sfondo Back to top"
+
+#: inc/color-scheme.php:56
+msgid "Back to top color"
+msgstr "Colore Back to top"
+
+#: inc/color-scheme.php:57
+msgid "Hover Back to top color"
+msgstr "Colore hover Back to top"
+
+#: inc/color-scheme.php:58
+msgid "Hover Social slider and footer color"
+msgstr "Colore hover Social Slider e Footer"
+
+#: inc/color-scheme.php:59
+msgid "Social contact color"
+msgstr "Colore Social Contatti"
+
+#: inc/color-scheme.php:60
+msgid "Hover Social contact color"
+msgstr "Colore hover Social Contatti"
+
+#: inc/color-scheme.php:61
+msgid "Social Team color"
+msgstr "Colore Social Team"
+
+#: inc/color-scheme.php:62
+msgid "Social share color"
+msgstr "Colore Social share"
+
+#: inc/color-scheme.php:63
+msgid "Hover Social share color"
+msgstr "Colore hover Social share"
+
+#: inc/color-scheme.php:64
+msgid "Background breadcrumbs color"
+msgstr "Colore sfondo breadcrumbs"
+
+#: inc/color-scheme.php:65
+msgid "Background preloader color"
+msgstr "Colore sfondo preloader"
+
+#: inc/color-scheme.php:66
+msgid "Preloader color"
+msgstr "Colore preloader"
+
+#: inc/color-scheme.php:67
+msgid "Background body color"
+msgstr "Colore sfondo body"
+
+# Content-none
+#: template-part/content-none.php:13
+msgid "Nothing Found"
+msgstr "Non abbiamo trovato nulla"
+
+#: template-part/content-none.php:32
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Siamo spiacenti, ma nulla corrisponde ai termini di ricerca. Riprova con alcune parole chiave diverse."
+
+#: template-part/content-none.php:37
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Sembra che non riusciamo a trovare ciò che stai cercando. Forse la ricerca può aiutare."
+
+# Content-page
+#: template-part/content-page.php:25
+msgid "Pages:"
+msgstr "Pagine:"
+
+# Content-search
+#: template-part/content-search.php:33
+msgid "Read more..."
+msgstr "Leggi di più..."
+
+# 404
+#: 404.php:30
+msgid "Go Back To Home"
+msgstr "Torna alla Home"
+
+# archive
+#: archive.php:43
+msgid "First"
+msgstr "Prima"
+
+#: archive.php:43
+msgid "Last"
+msgstr "Ultima"
+
+# comments
+#: comments.php:26
+msgid "Comments"
+msgstr "Commenti"
+
+#: comments.php:57
+msgid "Comments are closed."
+msgstr "I commenti sono chiusi."
+
+#: comments.php:63
+msgid "Got Something To Say!"
+msgstr "Ho qualcosa da dire!"
+
+# footer
+#: footer.php:32
+msgid "BACK TO TOP"
+msgstr "TORNA SU"
+
+# single
+#: single.php:50
+msgid "Sorry, no post matched your criteria."
+msgstr "Spiacente, nessun post corrisponde ai tuoi criteri."
+
+# avik-support
+#: avik-support.php:16
+msgid "Welcome to Avik!"
+msgstr "Benvenuto in Avik!"
+
+#: avik-support.php:17
+msgid "You can customize with one click"
+msgstr "Puoi personalizzarlo con in click"
+
+#: avik-support.php:23
+msgid "WELCOME"
+msgstr "BENVENUTO"
+
+#: avik-support.php:24
+msgid "GUIDES"
+msgstr "GUIDE"
+
+#: avik-support.php:26
+msgid "SUPPORT"
+msgstr "SUPPORTO"
+
+#: avik-support.php:32
+msgid "Welcome!"
+msgstr "Benvenuto!"
+
+#: avik-support.php:33
+msgid "Thank you for choosing Avik."
+msgstr "Grazie per aver scelto Avik."
+
+#: avik-support.php:34
+msgid "The theme is ready to be used. You can customize everything you want in a few simple clicks directly from the front end."
+msgstr "Il tema è pronto per essere utilizzato. Puoi personalizzare tutto ciò che vuoi in pochi semplici click direttamente dal front-end."
+
+#: avik-support.php:36
+msgid "For a complete experience, go to the"
+msgstr "Per una completa esperienza passa alla"
+
+#: avik-support.php:37
+msgid "Pro Version"
+msgstr "Versione Pro"
+
+#: avik-support.php:43
+msgid "Guides"
+msgstr "Guide"
+
+#: avik-support.php:45
+msgid "Here you will find some very useful guides for using Avik."
+msgstr "Qui troverai alcune guide molto utili per l'utilizzo di Avik."
+
+#: avik-support.php:45
+msgid "Documentation"
+msgstr "Documentazione"
+
+#: avik-support.php:50
+msgid "Guide to add id sections in the menu"
+msgstr "Guida per aggiungere l' ID sezioni nel menu"
+
+#: avik-support.php:51
+msgid "Insert id section for ancor the scroll"
+msgstr "Inserisci l'ID sezione per ancorare lo scroll"
+
+#: avik-support.php:55
+msgid "Guide for the section Who we are"
+msgstr "Guida per la sezione Chi siamo"
+
+#: avik-support.php:56
+msgid "Create a dedicated page"
+msgstr "Crea una pagina dedicata"
+
+#: avik-support.php:60
+msgid "Guide for the section Services"
+msgstr "Guida per la sezione Servizi"
+
+#: avik-support.php:65
+msgid "Guide for the section Portfolio"
+msgstr "Guida per la sezione Portfolio"
+
+#: avik-support.php:75
+msgid "Open Guide"
+msgstr "Apri la guida"
+
+#: avik-support.php:389
+msgid "Support for Pro Version"
+msgstr "Supporto per la Versione Pro"
+
+#: avik-support.php:390
+msgid "We offer full support for our theme, taking care of our customers and making sure we solve all the problem. Every time an update will be released you will be notified via a back-end notification, where you will be able to see the changes made and any bugs fixed."
+msgstr "Offriamo un supporto completo per il nostro tema, ci prendiamo cura dei nostri clienti e ci assicuriamo di risolvere tutti i problemi. Ogni volta che verrà rilasciato un aggiornamento, sarai avvisato tramite una notifica di back-end, dove potrai vedere le modifiche apportate ed eventuali bug risolti."
+
+#: avik-support.php:392
+msgid "Forum Support"
+msgstr "Forum di supporto"
+
+#: avik-support.php:393
+msgid "We offer outstanding support through our forum."
+msgstr "Offriamo un supporto eccezionale attraverso il nostro forum."
+
+#: avik-support.php:394
+msgid "To get support first have the"
+msgstr "Per ottenere il supporto in primo luogo devi avere la"
+
+#: avik-support.php:397
+msgid ", and you need to register (create an account) and open a ticket in the Avik Section."
+msgstr ", registrarti (creare un account) e aprire un ticket nella sezione Avik."
+
+#: avik-support.php:398
+msgid "Open Forum"
+msgstr "Apri il Forum"
+
+#: avik-support.php:75
+msgid "PRO VERSION"
+msgstr "VERSIONE PRO"
+
+#: avik-support.php:77
+msgid "Specifications Avik theme"
+msgstr "Specifiche tema Avik"

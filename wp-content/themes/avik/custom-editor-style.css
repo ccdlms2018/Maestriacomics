@@ -1,0 +1,181 @@
+/**
+* custom-editor-style.css
+*
+* @author    Denis Franchi
+* @package   Avik
+* @version   1.3.2
+*/
+
+/* TABLE OF CONTENT
+
+1 Custom Styles Avikt
+1.1 Avik Success
+1.2 Avik Secondary
+1.3 Avik Danger
+1.4 Avik Warning
+1.5 Avik Info
+1.6 Avik Button
+*/
+
+/* ------------------------------------------------------------------------- *
+##  1 Custom Styles Avik */
+/* ------------------------------------------------------------------------- */
+
+.alert {
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0!important;
+}
+
+/*-----------------------
+## 1.1 Avik Success
+-----------------------*/
+
+.alert-success{
+  color: #155724;
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+  border-left:3px solid #00b92a!important;
+}
+
+.alert-success hr{
+  border-top-color: #b1dfbb;
+}
+
+.alert-success a{
+  color:#00b92a;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.alert-success p{
+  color: #155724!important;
+}
+
+/*-----------------------
+## 1.2 Avik Secondary
+-----------------------*/
+
+.alert-secondary{
+  color: #464a4e;
+  background-color: #e7e8ea;
+  border-color: #dddfe2;
+  border-left:3px solid #0079b5!important;
+}
+
+.alert-secondary hr{
+  border-top-color: #cfd2d6;
+}
+
+.alert-secondary a{
+  color:#0079b5;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.alert-secondary p{
+  color: #464a4e!important;
+}
+
+/*-----------------------
+## 1.3 Avik Danger
+-----------------------*/
+
+.alert-danger {
+  color: #721c24;
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+  border-left:3px solid #ff0018!important;
+}
+
+.alert-danger hr {
+  border-top-color: #f1b0b7;
+}
+
+.alert-danger a{
+  color:#ff0018;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.alert-danger p{
+  color: #721c24!important;
+}
+
+/*-----------------------
+## 1.4 Avik Warning
+-----------------------*/
+
+.alert-warning {
+  color: #856404;
+  background-color: #fff3cd;
+  border-color: #ffeeba;
+  border-left:3px solid #fdbe00!important;
+}
+
+.alert-warning hr {
+  border-top-color: #ffe8a1;
+}
+
+.alert-danger a{
+  color:#fdbe00;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.alert-danger p{
+  color: #856404!important;
+}
+
+/*-----------------------
+## 1.5 Avik Info
+-----------------------*/
+
+.alert-info {
+  color: #0c5460;
+  background-color: #d1ecf1;
+  border-color: #bee5eb;
+  border-left:3px solid #00dbff!important;
+}
+
+.alert-info hr {
+  border-top-color: #abdde5;
+}
+
+.alert-info a{
+  color: #00dbff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.alert-info p{
+  color: #0c5460!important;
+}
+
+/*-----------------------
+## 1.6 Avik Button
+-----------------------*/
+
+.avik-button-editor{
+  background-color: #ffffff;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 0;
+  display: inline-block;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 30px;
+  text-decoration: none;
+  margin-bottom: 30px;
+  cursor: pointer;
+  border: 0.003em solid #c2c2c2;
+  color:#464a4e!important;
+}
+
+.avik-button-editor:hover{
+  background-color: #000;
+  color: #d5f83e!important;
+}
